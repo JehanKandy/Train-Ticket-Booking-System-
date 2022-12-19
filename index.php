@@ -39,23 +39,7 @@
     </div>
 </div>
 
-<div class="train-info">
-    <div class="train1">
-        <div class="grid">
-            <div class="t1"></div>
-            <div class="t2">
-                <div class="title">
-                    Train No 01
-                </div>
-                <div class="body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi laudantium ipsam! Recusandae, iusto aperiam quisquam cum officia quidem laborum voluptas temporibus quod? Nulla, quo deleniti quod neque laboriosam eaque!
-                    Culpa quod nostrum quisquam inventore magnam deserunt quasi voluptates dolore eligendi vitae mollitia minima voluptatem, cumque consectetur officiis odio cum, non eum tenetur optio eos ad doloribus accusamus qui. Rerum!
-                    Harum magni architecto nostrum ex! Impedit, vitae? Est modi itaque accusamus reiciendis repellat quidem obcaecati aliquid, consequuntur sint officiis repellendus assumenda voluptates dolorem laudantium porro illum eius delectus consequatur placeat.
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <?php include("lib/layouts/main_footer.php"); ?>
 <script src="js/script.js"></script>
