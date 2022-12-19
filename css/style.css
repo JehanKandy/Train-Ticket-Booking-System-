@@ -36,7 +36,10 @@ font-family: 'Teko', sans-serif;
     padding-bottom: 20px;
 }
 
-.book-trip-home-btn {}
+.book-trip-home-btn {
+    text-align: center;
+    margin-left: 750px;
+}
 
 .footer-content {
     background-size: auto;
