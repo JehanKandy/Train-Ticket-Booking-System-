@@ -6,10 +6,14 @@
         Train Reservation System
     </div>
     <div class="quote">
-        Book You Trip with Us
-        <a href="#"><button class="book-trip-home-btn">Book A Ticket</button></a>
+        Book You Trip with Us        
     </div>
-
+    <a href="#"><button class="book-trip-home-btn">Book A Ticket</button></a>
+</div>
+<div class="container">
+    <div class="menu-content">
+        hi
+    </div>
 </div>
 
 <?php include("lib/layouts/main_footer.php"); ?>
