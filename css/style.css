@@ -59,8 +59,7 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
-.t-item1 .body,
-.t-item4 .body {
+.t-item1 .body {
     text-align: center;
 }
 
