@@ -60,6 +60,22 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 20px;
 }
 
+.h-item1 {
+    grid-area: a;
+}
+
+.h-item2 {
+    grid-area: b;
+}
+
+.h-item3 {
+    grid-area: c;
+}
+
+.h-item4 {
+    grid-area: d;
+}
+
 .book-trip-home-btn:hover {
     color: black;
     background-color: white;
