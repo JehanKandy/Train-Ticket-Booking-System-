@@ -5,7 +5,7 @@
 
 
 <h1>Development Timelne</h1>
-
+<h1>Developers</h1>
 
 <h1>Copyright and license</h1>
 
