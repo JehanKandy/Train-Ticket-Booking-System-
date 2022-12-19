@@ -4,7 +4,7 @@
 
 <div class="footer-content">
     <div class="container">
-        hi
+        <div class="title">Train Reservation System</div>
     </div>
 </div>
 
