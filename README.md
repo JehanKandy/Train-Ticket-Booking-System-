@@ -7,7 +7,9 @@
 <h1>Development Timelne</h1>
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
-  - GitHub [JehanKandy](https://github.com/JehanKandy)
+  
+  - Github [JehanKandy](https://github.com/JehanKandy)
+  
 <h1>Copyright and license</h1>
 
 Copyright 2021–2022 [JehanKandy](https://github.com/JehanKandy). <b>Train Ticket Booking System</b> released under the [MIT License](https://github.com/JehanKandy/Train-Ticket-Booking-System-/blob/main/LICENSE)
