@@ -19,6 +19,7 @@ font-family: 'Teko', sans-serif;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/traintrack1.jpg);
     color: white;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .footer-content .title {
@@ -43,6 +44,18 @@ font-family: 'Teko', sans-serif;
 
 .t-item1 {
     grid-area: a;
+}
+
+.t-item1 .title,
+.t-item2 .title,
+.t-item3 .title,
+.t-item4 .title {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgba(233, 178, 0, 0.89);
+    text-align: center;
 }
 
 .t-item2 {
