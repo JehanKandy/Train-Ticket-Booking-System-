@@ -12,7 +12,7 @@
                     Train Reservation System
                 </div>
                 <div class="body">
-                    The Project Train Reservation System develop for educational purposes only
+                    The Project Train Reservation System develop for educational purposes only. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nulla beatae nam assumenda voluptatibus. Odio, eos vero earum nam id voluptatem repudiandae aliquam praesentium, ratione nihil culpa sequi iure quae!
                 </div>
             </div>
             <div class="t-item2">
@@ -24,7 +24,7 @@
                 </div></div>
             <div class="t-item3">
                 <div class="title">
-                    Train Reservation System
+                    Useful Links
                 </div>
                 <div class="body">
                     The Project Train Reservation System develop for educational purposes only
@@ -32,7 +32,7 @@
             </div>
             <div class="t-item4">
                 <div class="title">
-                    Train Reservation System
+                    Address
                 </div>
                 <div class="body">
                     The Project Train Reservation System develop for educational purposes only
