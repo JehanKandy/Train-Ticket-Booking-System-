@@ -46,8 +46,8 @@
                 </div>
                 <div class="body">
                     <p><i class="fas fa-map-marked-alt"></i> &nbsp; 29/3/A, Megodagama, Menikhinna, Kandy, Sri Lanka.</p>
-                    <p><i class="fas fa-phone-alt"></i>&nbsp; +94 77 806 4983</p>
-                    <p><i class="fas fa-envelope-open"></i> &nbsp; maneesha@abc.com</p>
+                    <p><i class="fas fa-phone-alt"></i>&nbsp; +94 711758851</p>
+                    <p><i class="fas fa-envelope-open"></i> &nbsp; jehan@abc.com</p>
                 </div>
             </div>
         </div>
