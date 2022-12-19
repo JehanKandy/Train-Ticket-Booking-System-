@@ -305,6 +305,9 @@ font-family: 'Teko', sans-serif;
     .book-trip-home-btn {
         margin-left: 535px;
     }
+    .find-train-btn {
+        margin-left: 500px;
+    }
 }
 
 
@@ -327,6 +330,9 @@ font-family: 'Teko', sans-serif;
     }
     .book-trip-home-btn {
         margin-left: 250px;
+    }
+    .find-train-btn {
+        margin-left: 280px;
     }
     .footer-content {
         height: 100%;
