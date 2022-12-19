@@ -33,9 +33,17 @@
             Search a Train
         </div>
         <div class="body">
-            find nearest Train
+            find nearest Train            
+        </div>
+        <a href=""><button class="find-train-btn">Find A Train</button></a>
+    </div>
+</div>
 
-            <a href=""><button class="find-train-btn">Find A Train</button></a>
+<div class="train-info">
+    <div class="train1">
+        <div class="grid">
+            <div class="t1">tinfo</div>
+            <div class="t2">tinfo</div>
         </div>
     </div>
 </div>
