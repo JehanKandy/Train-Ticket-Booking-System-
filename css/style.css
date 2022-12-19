@@ -33,8 +33,10 @@ font-family: 'Teko', sans-serif;
 .main-content .quote {
     text-align: center;
     font-size: 35px;
-    padding-bottom: 180px;
+    padding-bottom: 20px;
 }
+
+.book-trip-home-btn {}
 
 .footer-content {
     background-size: auto;
