@@ -14,10 +14,10 @@
 <div class="menu-content">
     <div class="container">
         <div class="menu-grid">
-            <div class="m-item1"><div class="text">Gallery</div></div>
-            <div class="m-item2"><div class="text">About Us</div></div>
-            <div class="m-item3"><div class="text">Train Route</div></div>
-            <div class="m-item4"><div class="text">News</div></div>
+            <div class="m-item1"><div class="text"><a href="#">Gallery</a></div></div>
+            <div class="m-item2"><div class="text"><a href="#">About Us</a></div></div>
+            <div class="m-item3"><div class="text"><a href="#">Train Route</a></div></div>
+            <div class="m-item4"><div class="text"<a href="#">>News</div></a></div>
         </div>
     </div>
 </div>
