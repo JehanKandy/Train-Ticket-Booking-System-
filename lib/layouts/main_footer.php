@@ -20,7 +20,12 @@
                     Our Services 
                 </div>
                 <div class="body">
-                    The Project Train Reservation System develop for educational purposes only
+                    <ul>
+                        <li><a href="#"> Train Time Table</a></li>
+                        <li><a href="#">Train Ticket Booking</a></li>
+                        <li><a href="#">Train Information</a></li>
+                        <li><a href="#">login and Registation</a></li>
+                    </ul>
                 </div></div>
             <div class="t-item3">
                 <div class="title">
