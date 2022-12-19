@@ -165,26 +165,6 @@ font-family: 'Teko', sans-serif;
     cursor: pointer;
 }
 
-.train-info {
-    margin: 50px 0 50px 0;
-}
-
-.train-info .grid {
-    display: grid;
-    width: 100%;
-    height: auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(350px, auto);
-    grid-gap: 1rem;
-    grid-template-areas: "a b";
-}
-
-.train-info .grid .t1 {
-    background-image: url("../images/train3.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
 .footer-content {
     background-size: auto;
     background-position: top;
