@@ -8,6 +8,15 @@
     <div class="quote">
         Book You Trip with Us        
     </div>
+    <div class="container">
+        <div class="home-grid">
+            <div class="h-item1">hi</div>
+            <div class="h-item2">hi</div>
+            <div class="h-item3">hi</div>
+            <div class="h-item4">hi</div>
+        </div>
+    </div>
+    
     <a href="#"><button class="book-trip-home-btn">Book A Ticket</button></a>
 </div>
 <div class="menu-content">
