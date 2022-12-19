@@ -152,6 +152,8 @@ font-family: 'Teko', sans-serif;
     background: transparent;
     border: 2px solid white;
     padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
 }
 
 .footer-content {
