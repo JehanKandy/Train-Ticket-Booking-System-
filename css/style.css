@@ -390,6 +390,9 @@ font-family: 'Teko', sans-serif;
     .book-trip-home-btn {
         margin-left: 60px;
     }
+    .find-train-btn {
+        margin-left: 90px;
+    }
     .menu-grid {
         display: grid;
         width: 100%;
