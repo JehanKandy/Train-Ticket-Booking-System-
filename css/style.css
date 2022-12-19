@@ -137,6 +137,17 @@ font-family: 'Teko', sans-serif;
     padding: 100px 20px 100px 20px;
 }
 
+.train-bk .title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.train-bk .body {
+    text-align: center;
+    font-size: 20px;
+}
+
 .footer-content {
     background-size: auto;
     background-position: top;
