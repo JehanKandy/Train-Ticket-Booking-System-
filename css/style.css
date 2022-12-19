@@ -55,7 +55,6 @@ font-family: 'Teko', sans-serif;
 
 .menu-content {
     padding: 100px 20px 100px 20px;
-    background-color: rgba(228, 228, 228, 0.712);
 }
 
 .menu-grid {
@@ -71,20 +70,39 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 20px;
 }
 
+.m-item1,
+.m-item2,
+.m-item3,
+.m-item4 {
+    text-align: center;
+}
+
 .m-item1 {
     grid-area: a;
+    background-image: url("../images/train10.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .m-item2 {
     grid-area: b;
+    background-image: url("../images/train10.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .m-item3 {
     grid-area: c;
+    background-image: url("../images/train10.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .m-item4 {
     grid-area: d;
+    background-image: url("../images/train10.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .footer-content {
