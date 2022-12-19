@@ -75,34 +75,29 @@ font-family: 'Teko', sans-serif;
 .m-item3,
 .m-item4 {
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .m-item1 {
     grid-area: a;
-    background-image: url("../images/train10.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../images/train2.jpg");
 }
 
 .m-item2 {
     grid-area: b;
-    background-image: url("../images/train10.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../images/train5.jpg");
 }
 
 .m-item3 {
     grid-area: c;
-    background-image: url("../images/train10.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../images/train6.jpg");
 }
 
 .m-item4 {
     grid-area: d;
-    background-image: url("../images/train10.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../images/train7.jpg");
 }
 
 .footer-content {
