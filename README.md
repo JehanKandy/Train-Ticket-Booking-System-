@@ -9,7 +9,7 @@
   <h4>JehanKandy</h4>
 
   - Github [JehanKandy](https://github.com/JehanKandy)
-  - Twitter [JehanKandy](https://twitter.com/jehankandy)
+  - Twitter [@JehanKandy](https://twitter.com/jehankandy)
   
 <h1>Copyright and license</h1>
 
