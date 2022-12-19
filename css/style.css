@@ -15,7 +15,7 @@ font-family: 'Teko', sans-serif;
 .footer-content {
     background-size: auto;
     background-position: top;
-    height: 60vh;
+    height: 100%;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/traintrack1.jpg);
     color: white;
     padding-top: 50px;
@@ -81,7 +81,30 @@ font-family: 'Teko', sans-serif;
     ***************************************************************************************
 */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 820px) {}
+@media only screen and (min-device-width: 481px) and (max-device-width: 820px) {
+    .footer-content {
+        height: 100%;
+        background: -webkit-linear-gradient(rgba(14, 13, 13, 0.815), rgba(31, 31, 31, 0.815)), url(../images/train3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .footer-content .title {
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .footer-content .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(250px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d";
+        padding: 45 45 45 45;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
 
 
 /* 
