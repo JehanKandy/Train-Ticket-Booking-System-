@@ -5,3 +5,8 @@
 
 
 <h1>Development Timelne</h1>
+
+
+<h1>Copyright and license</h1>
+
+Copyright 2021–2022 [JehanKandy](https://github.com/JehanKandy). The JKCSS Project released under the [MIT License](https://github.com/JKCSS/JKCSS-Framework/blob/main/LICENSE)
