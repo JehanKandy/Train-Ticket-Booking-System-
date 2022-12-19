@@ -13,10 +13,11 @@ font-family: 'Teko', sans-serif;
 */
 
 .main-content {
-    background-size: cover;
+    width: 100%;
+    height: 95vh;
     background-position: center;
-    height: 100%;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/train6.jpg);
+    background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train4.jpg");
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -25,6 +26,14 @@ font-family: 'Teko', sans-serif;
 .main-content .title {
     text-align: center;
     font-size: 70px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 200px;
+}
+
+.main-content .quote {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 180px;
 }
 
 .footer-content {
