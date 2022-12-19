@@ -15,9 +15,9 @@
     <div class="container">
         <div class="menu-grid">
             <a href="#" style="text-decoration: none;"><div class="m-item1"><div class="text">Gallery</div></div></a>
-            <a href="#"><div class="m-item2"><div class="text">About Us</div></div></a>
-            <a href="#"><div class="m-item3"><div class="text">Train Route</div></div></a>
-            <a href="#"><div class="m-item4"><div class="text">News</div></div></a>
+            <a href="#" style="text-decoration: none;"><div class="m-item2"><div class="text">About Us</div></div></a>
+            <a href="#" style="text-decoration: none;"><div class="m-item3"><div class="text">Train Route</div></div></a>
+            <a href="#" style="text-decoration: none;"><div class="m-item4"><div class="text">News</div></div></a>
         </div>
     </div>
 </div>
