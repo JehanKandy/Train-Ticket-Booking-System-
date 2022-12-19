@@ -51,6 +51,10 @@
                 </div>
             </div>
         </div>
+        <hr class="footer-hr">
+        <div class="footer-copy">
+            Copyright <i class="far fa-copyright"></i> Train Reservation System : 2022 All Right Reserved by <a href="https://github.com/JehanKandy" target="_blank">JehanKandy</a>
+        </div>
     </div>
 </div>
 
