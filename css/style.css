@@ -60,7 +60,6 @@ font-family: 'Teko', sans-serif;
 }
 
 .t-item1 .body,
-.t-item3 .body,
 .t-item4 .body {
     text-align: center;
 }
@@ -73,8 +72,40 @@ font-family: 'Teko', sans-serif;
     list-style-type: none;
 }
 
+.t-item2 ul li {
+    padding-bottom: 20px;
+}
+
+.t-item2 ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.t-item2 ul li a:hover {
+    color: rgba(233, 178, 0, 0.89);
+}
+
 .t-item3 {
     grid-area: c;
+}
+
+.t-item3 ul {
+    list-style-type: none;
+}
+
+.t-item3 ul li {
+    padding-bottom: 20px;
+}
+
+.t-item3 ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.t-item3 ul li a:hover {
+    color: rgba(233, 178, 0, 0.89);
 }
 
 .t-item4 {
