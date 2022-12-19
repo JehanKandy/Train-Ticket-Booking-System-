@@ -60,7 +60,6 @@ font-family: 'Teko', sans-serif;
 }
 
 .t-item1 .body,
-.t-item2 .body,
 .t-item3 .body,
 .t-item4 .body {
     text-align: center;
@@ -68,6 +67,10 @@ font-family: 'Teko', sans-serif;
 
 .t-item2 {
     grid-area: b;
+}
+
+.t-item2 ul {
+    list-style-type: none;
 }
 
 .t-item3 {
