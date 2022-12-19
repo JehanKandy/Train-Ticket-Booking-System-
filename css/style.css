@@ -41,6 +41,8 @@ font-family: 'Teko', sans-serif;
     margin-left: 750px;
     background: transparent;
     padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 .footer-content {
