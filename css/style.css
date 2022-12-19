@@ -165,6 +165,10 @@ font-family: 'Teko', sans-serif;
     cursor: pointer;
 }
 
+.train-info {
+    padding: 0;
+}
+
 .footer-content {
     background-size: auto;
     background-position: top;
