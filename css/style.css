@@ -81,6 +81,11 @@ font-family: 'Teko', sans-serif;
     color: white;
 }
 
+.m-item1 .text {
+    padding-top: 110px;
+    font-size: 20px;
+}
+
 .m-item1 {
     grid-area: a;
     background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train2.jpg");
