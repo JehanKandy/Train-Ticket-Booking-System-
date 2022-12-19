@@ -42,7 +42,7 @@ font-family: 'Teko', sans-serif;
     background: transparent;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid black;
     color: white;
     transition: 0.5s;
 }
