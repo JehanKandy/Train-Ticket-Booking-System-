@@ -45,7 +45,8 @@
                     Address
                 </div>
                 <div class="body">
-                    The Project Train Reservation System develop for educational purposes only
+                <i class='fas fa-location-arrow'></i> &nbsp; 29/3/A, Megodagama, Menikhinna, Kandy, Sri Lanka.
+
                 </div>
             </div>
         </div>
