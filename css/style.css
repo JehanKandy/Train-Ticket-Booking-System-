@@ -287,14 +287,14 @@ font-family: 'Teko', sans-serif;
         background-position: center;
         background-size: cover;
     }
+    .book-trip-home-btn {
+        margin-left: 250px;
+    }
     .footer-content {
         height: 100%;
         background: -webkit-linear-gradient(rgba(14, 13, 13, 0.815), rgba(31, 31, 31, 0.815)), url(../images/train3.jpg);
         background-position: center;
         background-size: cover;
-    }
-    .book-trip-home-btn {
-        margin-left: 320px;
     }
     .footer-content .title {
         font-size: 30px;
