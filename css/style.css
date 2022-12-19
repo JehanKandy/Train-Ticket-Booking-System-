@@ -59,6 +59,13 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.t-item1 .body,
+.t-item2 .body,
+.t-item3 .body,
+.t-item4 .body {
+    text-align: center;
+}
+
 .t-item2 {
     grid-area: b;
 }
@@ -153,5 +160,17 @@ font-family: 'Teko', sans-serif;
         padding: 45 45 45 45;
         margin-top: 40px;
         margin-bottom: 20px;
+    }
+    .t-item1 .title,
+    .t-item2 .title,
+    .t-item3 .title,
+    .t-item4 .title {
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 20px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        color: rgba(233, 178, 0, 0.89);
+        text-align: center;
+        transition: 0.5s;
     }
 }
