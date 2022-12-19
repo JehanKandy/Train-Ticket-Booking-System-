@@ -15,9 +15,29 @@
                     The Project Train Reservation System develop for educational purposes only
                 </div>
             </div>
-            <div class="t-item2">hi</div>
-            <div class="t-item3">hi</div>
-            <div class="t-item4">hi</div>
+            <div class="t-item2">
+                <div class="title">
+                    Our Services 
+                </div>
+                <div class="body">
+                    The Project Train Reservation System develop for educational purposes only
+                </div></div>
+            <div class="t-item3">
+                <div class="title">
+                    Train Reservation System
+                </div>
+                <div class="body">
+                    The Project Train Reservation System develop for educational purposes only
+                </div>
+            </div>
+            <div class="t-item4">
+                <div class="title">
+                    Train Reservation System
+                </div>
+                <div class="body">
+                    The Project Train Reservation System develop for educational purposes only
+                </div>
+            </div>
         </div>
     </div>
 </div>
