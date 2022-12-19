@@ -81,7 +81,10 @@ font-family: 'Teko', sans-serif;
     color: white;
 }
 
-.m-item1 .text {
+.m-item1 .text,
+.m-item2 .text,
+.m-item3 .text,
+.m-item4 .text {
     padding-top: 110px;
     font-size: 20px;
 }
