@@ -53,17 +53,18 @@
         </div>
         <hr class="footer-hr">
         <div class="footer-copy">
-            Copyright <i class="far fa-copyright"></i> Train Reservation System : 2022 All Right Reserved by <a href="https://github.com/JehanKandy" target="_blank" style="color: rgba(233, 178, 0, 0.89); text-decoration:none;">JehanKandy</a>
-        
+            <div class="copy-body">
+                Copyright <i class="far fa-copyright"></i> Train Reservation System : 2022 All Right Reserved by <a href="https://github.com/JehanKandy" target="_blank" style="color: rgba(233, 178, 0, 0.89); text-decoration:none;">JehanKandy</a>
+            </div>
             <div class="contact-icons">
                 <ul>
-                    <li class="list-inline-item">
+                    <li>
                         <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-github-square"></i></a>    
                     </li>
-                    <li class="list-inline-item">
+                    <li>
                         <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-linkedin"></i></a>    
                     </li>
-                    <li class="list-inline-item">
+                    <li>
                         <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-whatsapp-square"></i></a>    
                     </li>
                 </ul>
