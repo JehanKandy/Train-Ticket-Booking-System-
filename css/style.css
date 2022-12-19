@@ -175,6 +175,10 @@ font-family: 'Teko', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 
+.follow-content .body {
+    text-align: center;
+}
+
 .footer-content {
     background-size: auto;
     background-position: top;
