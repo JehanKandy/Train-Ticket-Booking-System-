@@ -14,7 +14,7 @@ font-family: 'Teko', sans-serif;
 
 .main-content {
     width: 100%;
-    height: 95vh;
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train4.jpg");
@@ -47,10 +47,28 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.home-grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(250px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d";
+    padding: 45 45 45 45;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .book-trip-home-btn:hover {
     color: black;
     background-color: white;
     cursor: pointer;
+}
+
+.menu-content {
+    padding: 100px 20px 100px 20px;
+    background-color: rgba(228, 228, 228, 0.712);
 }
 
 .footer-content {
@@ -268,6 +286,9 @@ font-family: 'Teko', sans-serif;
         font-size: 40px;
         font-family: 'Rubik', sans-serif;
         padding-top: 200px;
+    }
+    .book-trip-home-btn {
+        margin-left: 120px;
     }
     .footer-content {
         height: 100%;
