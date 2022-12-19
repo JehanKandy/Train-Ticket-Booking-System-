@@ -83,26 +83,23 @@ font-family: 'Teko', sans-serif;
 
 .m-item1 {
     grid-area: a;
-    background-image: url("../images/train2.jpg");
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train2.jpg");
+    transition: 0.9s;
 }
 
 .m-item2 {
     grid-area: b;
-    background-image: url("../images/train5.jpg");
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train5.jpg");
 }
 
 .m-item3 {
     grid-area: c;
-    background-image: url("../images/train6.jpg");
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train6.jpg");
 }
 
 .m-item4 {
     grid-area: d;
-    background-image: url("../images/train7.jpg");
-}
-
-.m-item1:hover {
-    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train2.jpg");
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train7.jpg");
 }
 
 .footer-content {
