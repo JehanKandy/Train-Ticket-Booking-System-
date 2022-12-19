@@ -45,8 +45,9 @@
                     Address
                 </div>
                 <div class="body">
-                <i class='fas fa-location-arrow'></i> &nbsp; 29/3/A, Megodagama, Menikhinna, Kandy, Sri Lanka.
-
+                    <p><i class="fas fa-map-marked-alt"></i> &nbsp; 29/3/A, Megodagama, Menikhinna, Kandy, Sri Lanka.</p>
+                    <p><i class="fas fa-phone-alt"></i>&nbsp; +94 77 806 4983</p>
+                    <p><i class="fas fa-envelope-open"></i> &nbsp; maneesha@abc.com</p>
                 </div>
             </div>
         </div>
