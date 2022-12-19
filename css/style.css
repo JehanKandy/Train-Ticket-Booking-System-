@@ -151,6 +151,7 @@ font-family: 'Teko', sans-serif;
 .find-train-btn {
     background: transparent;
     border: 2px solid white;
+    padding: 10px 20px 10px 20px;
 }
 
 .footer-content {
