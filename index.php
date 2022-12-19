@@ -15,7 +15,7 @@
     <div class="container">
         <div class="menu-grid">
             <div class="m-item1">Gallery</div>
-            <div class="m-item2">About</div>
+            <div class="m-item2">About Us</div>
             <div class="m-item3">Train Route</div>
             <div class="m-item4">News</div>
         </div>
