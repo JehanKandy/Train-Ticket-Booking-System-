@@ -44,6 +44,7 @@ font-family: 'Teko', sans-serif;
     border-radius: 5px;
     border: 1px solid white;
     color: white;
+    transition: 0.5s;
 }
 
 .book-trip-home-btn:hover {
