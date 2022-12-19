@@ -16,7 +16,7 @@ font-family: 'Teko', sans-serif;
     background-size: auto;
     background-position: top;
     height: 100%;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/traintrack1.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/train6.jpg);
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -29,7 +29,7 @@ font-family: 'Teko', sans-serif;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/traintrack1.jpg);
     color: white;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .footer-content .title {
