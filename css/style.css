@@ -219,6 +219,9 @@ font-family: 'Teko', sans-serif;
         background-position: center;
         background-size: cover;
     }
+    .book-trip-home-btn {
+        margin-left: 320px;
+    }
     .footer-content .title {
         font-size: 30px;
         font-weight: 200;
