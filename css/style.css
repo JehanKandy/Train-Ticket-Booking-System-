@@ -41,6 +41,22 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 20px;
 }
 
+.t-item1 {
+    grid-area: a;
+}
+
+.t-item2 {
+    grid-area: b;
+}
+
+.t-item3 {
+    grid-area: c;
+}
+
+.t-item4 {
+    grid-area: d;
+}
+
 
 /* 
     ***************************************************************************************
