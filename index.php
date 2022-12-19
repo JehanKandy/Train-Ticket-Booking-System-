@@ -10,8 +10,8 @@
     </div>
     <a href="#"><button class="book-trip-home-btn">Book A Ticket</button></a>
 </div>
-<div class="container">
-    <div class="menu-content">
+<div class="menu-content">
+    <div class="container">
         hi
     </div>
 </div>
