@@ -10,8 +10,8 @@
     </div>
     <div class="w3-show-inline-block">
         <div class="w3-bar">
-            <a href=""><button class="book-trip-home-btn">HI</button></a>
-            <a href=""><button class="login-home-btn">HI</button></a>
+            <a href=""><button class="book-trip-home-btn">Book A Ticket</button></a>
+            <a href=""><button class="login-home-btn">Login Here</button></a>
         </div>
     </div>
 
