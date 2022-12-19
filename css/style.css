@@ -148,6 +148,11 @@ font-family: 'Teko', sans-serif;
     font-size: 20px;
 }
 
+.find-train-btn {
+    background: transparent;
+    border: 2px solid white;
+}
+
 .footer-content {
     background-size: auto;
     background-position: top;
