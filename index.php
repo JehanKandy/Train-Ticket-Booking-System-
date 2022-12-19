@@ -29,7 +29,14 @@
 
 <div class="train-bk">
     <div class="container">
-        hi
+        <div class="title">
+            Search a Train
+        </div>
+        <div class="body">
+            find nearest Train
+
+            <a href=""><button class="find-train-btn">Find A Train</button></a>
+        </div>
     </div>
 </div>
 
