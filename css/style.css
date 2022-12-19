@@ -35,7 +35,7 @@ font-family: 'Teko', sans-serif;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(250px, auto);
     grid-gap: 1rem;
-    grid-template-areas: "a b c d" "e f g h";
+    grid-template-areas: "a b c d";
     padding: 45 45 45 45;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -104,5 +104,17 @@ font-family: 'Teko', sans-serif;
     .footer-content .title {
         font-size: 30px;
         font-weight: 200;
+    }
+    .footer-content .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(250px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c" "d";
+        padding: 45 45 45 45;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 }
