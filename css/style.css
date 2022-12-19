@@ -46,6 +46,12 @@ font-family: 'Teko', sans-serif;
     color: white;
 }
 
+.book-trip-home-btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
 .footer-content {
     background-size: auto;
     background-position: top;
