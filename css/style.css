@@ -56,12 +56,18 @@ font-family: 'Teko', sans-serif;
 .login-home-btn {
     text-align: center;
     margin-left: 10px;
-    background: transparent;
+    background-color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
     border: 1px solid white;
     color: white;
     transition: 0.5s;
+}
+
+.login-home-btn:hover {
+    background: transparent;
+    color: white;
+    cursor: pointer;
 }
 
 .menu-content {
