@@ -13,8 +13,10 @@ font-family: 'Teko', sans-serif;
 */
 
 .footer-content {
-    background-color: red;
-    height: 100vh;
+    background-size: auto;
+    background-position: top;
+    height: 60vh;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/traintrack1.jpg);
 }
 
 
