@@ -39,7 +39,16 @@
     </div>
 </div>
 
-
+<div class="follow content">
+    <div class="container">
+        <div class="title">
+            Follow Us on
+        </div>
+        <div class="body">
+            
+        </div>
+    </div>
+</div>
 
 <?php include("lib/layouts/main_footer.php"); ?>
 <script src="js/script.js"></script>
