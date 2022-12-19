@@ -5,6 +5,13 @@
 <div class="footer-content">
     <div class="container">
         <div class="title">Train Reservation System</div>
+
+        <div class="grid">
+            <div class="t-item1">hi</div>
+            <div class="t-item2">hi</div>
+            <div class="t-item3">hi</div>
+            <div class="t-item4">hi</div>
+        </div>
     </div>
 </div>
 
