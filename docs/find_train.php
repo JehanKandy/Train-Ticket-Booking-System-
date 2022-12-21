@@ -5,7 +5,16 @@
 
 
 <div class="find-train-content">
-    hi
+    <div class="container">
+        <div class="find-box">
+            <div class="title">Find Train</div>
+            <div class="body">
+                <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+            
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
 
