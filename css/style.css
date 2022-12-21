@@ -339,19 +339,25 @@ font-family: 'Teko', sans-serif;
 
 .nav-bar ul {
     float: right;
-    margin: -80px 50px;
+    margin: -75px 50px;
 }
 
 .nav-bar ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-    padding: 0 20px 0 20px;
 }
 
 .nav-bar ul li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover {
+    background-color: white;
 }
 
 
