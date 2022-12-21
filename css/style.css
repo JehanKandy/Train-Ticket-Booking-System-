@@ -462,6 +462,8 @@ font-family: 'Teko', sans-serif;
     }
     .nav-bar ul li {
         display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
     #check:checked~ul {
         left: 0;
