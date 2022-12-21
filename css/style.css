@@ -32,6 +32,7 @@ font-family: 'Teko', sans-serif;
     color: white;
     padding-top: 100px;
     padding-bottom: 200px;
+    margin-top: -90px;
 }
 
 .main-content .title {
@@ -319,63 +320,38 @@ font-family: 'Teko', sans-serif;
 .nav-content {
     margin: 0;
     padding: 0;
-    list-style: none;
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
-}
-
-.nav-content .header {
+    text-decoration: none;
+    background: transparent;
+    color: white;
     width: 100%;
     height: 80px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.nav-content .train-logo {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
     padding: 0 100px;
-}
-
-.train-logo {
-    font-size: 28px;
     font-weight: bold;
-    color: white;
-}
-
-.find-train-content {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train4.jpg");
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 200px;
-    margin-top: -80px;
-}
-
-.line-icon {
-    display: none;
 }
 
 .nav-bar ul {
-    display: flex;
-    list-style: none;
+    float: right;
+    margin: -80px 50px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 0 20px 0 20px;
 }
 
 .nav-bar ul li a {
-    display: block;
-    color: white;
-    font-size: 20px;
-    padding: 10px 25px;
-    margin: 10 5px;
-    margin-top: 15px;
-    transition: 0.5s;
     text-decoration: none;
-}
-
-.nav-bar ul li a:hover {
-    background-color: white;
-    color: black;
-    border-radius: 5px;
+    color: white;
 }
 
 
@@ -467,7 +443,11 @@ font-family: 'Teko', sans-serif;
         width: 100vw;
         background: transparent;
         transition: 0.5;
-        height: 450px;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav-bar .active {
+        height: 500px;
     }
     .nav-bar ul {
         display: block;
@@ -476,6 +456,9 @@ font-family: 'Teko', sans-serif;
         text-align: center;
         transition: 0.5s;
         opacity: 0;
+    }
+    .nav-bar .active ul {
+        opacity: 1;
     }
 }
 
