@@ -460,7 +460,22 @@ font-family: 'Teko', sans-serif;
         margin: 6px 0;
     }
     .nav-bar {
-        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: transparent;
+        transition: 0.5;
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
     }
 }
 
