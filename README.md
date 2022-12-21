@@ -28,6 +28,7 @@
   - docs/find_train.php
   2. UPDATE
   - index.php
+  - css/style.css
 
 
 <h1>Developers</h1>
