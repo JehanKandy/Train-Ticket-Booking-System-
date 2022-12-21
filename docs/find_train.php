@@ -10,7 +10,19 @@
             <div class="title">Find Train</div>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-            
+                    Start Station : <br>
+                    <select name="" id="">
+                        <option value="kandy"></option>
+                        <option value="Colombo"></option>   
+                        <option value="Mathara"></option>                       
+                    </select>
+
+                    End Station : <br>
+                    <select name="" id="">
+                        <option value="kandy"></option>
+                        <option value="Colombo"></option>   
+                        <option value="Mathara"></option>                       
+                    </select>
                 </form>
             </div>
         </div>
