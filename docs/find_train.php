@@ -12,16 +12,16 @@
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     Start Station : <br>
                     <select name="" id="">
-                        <option value="kandy"></option>
-                        <option value="Colombo"></option>   
-                        <option value="Mathara"></option>                       
+                        <option value="kandy">Kandy</option>
+                        <option value="Colombo">Colombo</option>   
+                        <option value="Mathara">Mathara</option>                       
                     </select>
 
                     End Station : <br>
                     <select name="" id="">
-                        <option value="kandy"></option>
-                        <option value="Colombo"></option>   
-                        <option value="Mathara"></option>                       
+                        <option value="kandy">Kandy</option>
+                        <option value="Colombo">Colombo</option>   
+                        <option value="Mathara">Mathara</option>                        
                     </select>
                 </form>
             </div>
