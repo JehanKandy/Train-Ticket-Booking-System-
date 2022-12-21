@@ -358,6 +358,20 @@ font-family: 'Teko', sans-serif;
 
 .nav-bar ul li a:hover {
     background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.checkicn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin: 5px 40px;
+}
+
+#check {
+    display: none;
 }
 
 
