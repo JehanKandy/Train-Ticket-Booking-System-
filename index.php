@@ -35,17 +35,21 @@
         <div class="body">
             find nearest Train            
         </div>
-        <a href=""><button class="find-train-btn">Find A Train</button></a>
+        <a href="docs/find_train.php"><button class="find-train-btn">Find A Train</button></a>
     </div>
 </div>
 
-<div class="follow content">
+<div class="follow-content">
     <div class="container">
         <div class="title">
             Follow Us on
         </div>
         <div class="body">
-            
+            <i class="fab fa-github" style="font-size: 50px; margin:0 20px 0 20px;"></i>
+            <i class="fab fa-linkedin-in" style="font-size: 50px; margin:0 20px 0 20px;"></i>
+            <i class="fab fa-facebook" style="font-size: 50px; margin:0 20px 0 20px;"></i>
+            <i class="fab fa-instagram" style="font-size: 50px; margin:0 20px 0 20px;"></i>
+            <i class="fab fa-youtube" style="font-size: 50px; margin:0 20px 0 20px;"></i>
         </div>
     </div>
 </div>
