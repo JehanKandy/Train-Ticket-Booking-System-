@@ -403,6 +403,10 @@ font-family: 'Teko', sans-serif;
     padding: 100px 20px 100px 20px;
 }
 
+.view-trains .title {
+    text-align: center;
+}
+
 
 /* 
     ***************************************************************************************
