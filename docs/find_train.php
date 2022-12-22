@@ -45,6 +45,9 @@
         <div class="title">
             Avalibale Trains on 2022-12-27 From Kandy To Mathara
         </div>
+        <div class="body">
+            hi
+        </div>
     </div>
 </div>
 
