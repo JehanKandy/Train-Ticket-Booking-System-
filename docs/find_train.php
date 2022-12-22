@@ -27,6 +27,7 @@
                     <br>
                     Booking Date : <br>
                     <input type="date" name="booing_date" id="" class="form-control">
+                    <br>
                     <button type="submit" class="btn btn-primary btn-lg btn-block">
                         <i class="fas fa-search"></i>&nbsp;
                             Search          
@@ -41,7 +42,9 @@
 
 <div class="view-trains">
     <div class="container">
-        hi
+        <div class="title">
+            Avalibale Trains in 2022-12-27 From Kandy To Mathara
+        </div>
     </div>
 </div>
 
