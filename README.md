@@ -37,8 +37,6 @@
   
   1. DEVELOP
   2. UPDATE
-  - index.php
-  - css/style.css
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
