@@ -8,21 +8,24 @@
     <div class="container">
         <div class="find-box">
             <div class="title">Find Train</div>
+            <hr>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     Start Station : <br>
-                    <select name="" id="">
+                    <select name="" id="" class="input-feild">
                         <option value="kandy">Kandy</option>
                         <option value="Colombo">Colombo</option>   
                         <option value="Mathara">Mathara</option>                       
                     </select>
-
+                    <br>
                     End Station : <br>
-                    <select name="" id="">
+                    <select name="" id="" class="input-feild">
                         <option value="kandy">Kandy</option>
                         <option value="Colombo">Colombo</option>   
                         <option value="Mathara">Mathara</option>                        
                     </select>
+                    <br>
+                    <input type="submit" value="Search" class="search-trin-btn" name="search_train">
                 </form>
             </div>
         </div>
