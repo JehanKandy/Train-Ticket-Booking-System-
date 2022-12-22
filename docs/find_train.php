@@ -37,6 +37,12 @@
     </div>
 </div>
 
+<div class="view-trains">
+    <div class="container">
+        hi
+    </div>
+</div>
+
 
 <script src="../js/script.js"></script>
 <?php include("../lib/layouts/main_footer.php"); ?>
