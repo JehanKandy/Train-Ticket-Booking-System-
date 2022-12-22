@@ -36,8 +36,6 @@
   <h4>22 December 2022</h4>
   
   1. DEVELOP
-  - docs/find_train.php
-  - lib/layouts/nav_bar.php
   2. UPDATE
   - index.php
   - css/style.css
