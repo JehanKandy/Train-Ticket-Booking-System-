@@ -23,18 +23,6 @@ font-family: 'Teko', sans-serif;
     padding-bottom: 200px;
 }
 
-.find-train-content {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train4.jpg");
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 200px;
-    margin-top: -90px;
-}
-
 .main-content .title {
     text-align: center;
     font-size: 70px;
@@ -375,6 +363,18 @@ font-family: 'Teko', sans-serif;
     display: none;
 }
 
+.find-train-content {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train6.jpg");
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-top: -90px;
+}
+
 .find-box {
     width: 400px;
     background-color: white;
@@ -396,7 +396,11 @@ font-family: 'Teko', sans-serif;
 
 .design-by {
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 40px 0 10px 0;
+}
+
+.view-trains {
+    padding: 100px 20px 100px 20px;
 }
 
 
@@ -603,5 +607,24 @@ font-family: 'Teko', sans-serif;
     .nav-content .train-logo {
         font-size: 25px;
         margin-top: 0;
+    }
+    .find-train-content {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train5.jpg");
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 200px;
+        margin-top: -90px;
+    }
+    .find-box {
+        width: 300px;
+        background-color: white;
+        margin: 100px 0 0 0;
+        padding: 25px 25px 0 25px;
+        border-radius: 5px;
+        color: black;
     }
 }
