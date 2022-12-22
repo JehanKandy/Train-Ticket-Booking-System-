@@ -26,7 +26,7 @@
                     </select>
                     <br>
                     Booking Date : <br>
-                    <input type="date" name="booing_date" id="">
+                    <input type="date" name="booing_date" id="" class="form-control">
                     <button type="submit" class="btn btn-primary btn-lg btn-block">
                         <i class="fas fa-search"></i>&nbsp;
                             Search          
