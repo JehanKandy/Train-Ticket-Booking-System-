@@ -26,7 +26,7 @@
                     </select>
                     <br>
                     <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search"></i>&nbsp;
                             Search          
                     </button>
                 </form>                
