@@ -25,7 +25,7 @@
                         <option value="Mathara">Mathara</option>                        
                     </select>
                     <br>
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">
                         <i class="fas fa-search"></i>&nbsp;
                             Search          
                     </button>
