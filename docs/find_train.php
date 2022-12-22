@@ -12,19 +12,21 @@
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     Start Station : <br>
-                    <select name="" id="" class="form-control">
+                    <select name="start_station" id="" class="form-control">
                         <option value="kandy">Kandy</option>
                         <option value="Colombo">Colombo</option>   
                         <option value="Mathara">Mathara</option>                       
                     </select>
                     <br>
                     End Station : <br>
-                    <select name="" id="" class="form-control">
+                    <select name="end_station" id="" class="form-control">
                         <option value="kandy">Kandy</option>
                         <option value="Colombo">Colombo</option>   
                         <option value="Mathara">Mathara</option>                        
                     </select>
                     <br>
+                    Booking Date : <br>
+                    <input type="date" name="booing_date" id="">
                     <button type="submit" class="btn btn-primary btn-lg btn-block">
                         <i class="fas fa-search"></i>&nbsp;
                             Search          
