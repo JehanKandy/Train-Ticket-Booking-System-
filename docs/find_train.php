@@ -26,8 +26,9 @@
                     </select>
                     <br>
                     <input type="submit" value="Search" class="btn btn-primary" name="search_train">
-                </form>
+                </form>                
             </div>
+            <hr>
         </div>
     </div>
 </div>
