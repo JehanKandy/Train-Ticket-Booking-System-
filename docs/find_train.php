@@ -43,7 +43,7 @@
 <div class="view-trains">
     <div class="container">
         <div class="title">
-            Avalibale Trains in 2022-12-27 From Kandy To Mathara
+            Avalibale Trains on 2022-12-27 From Kandy To Mathara
         </div>
     </div>
 </div>
