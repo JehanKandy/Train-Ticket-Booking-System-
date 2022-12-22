@@ -413,12 +413,12 @@ font-family: 'Teko', sans-serif;
     padding: 20px;
 }
 
-.student-tbl thead {
+.find-train-tbl thead {
     background-color: #f09712;
     color: white;
 }
 
-.student-tbl thead tr {
+.find-train-tbl thead tr {
     background-color: #f09712;
     color: white;
     text-align: left;
@@ -426,16 +426,16 @@ font-family: 'Teko', sans-serif;
     height: 50px;
 }
 
-.student-tbl tbody tr:nth-child(even) {
+.find-train-tbl tbody tr:nth-child(even) {
     background-color: #f5f5f5;
 }
 
-.student-tbl th,
+.find-train-tbl th,
 td {
     padding: 12px 15px;
 }
 
-.student-tbl tbody tr {
+.find-train-tbl tbody tr {
     border-bottom: 1px solid #dddddd;
     height: 55px;
 }
@@ -533,15 +533,15 @@ td {
     #check:checked~ul {
         left: 0;
     }
-    .student-tbl {
+    .find-train-tbl {
         min-width: 700px;
     }
-    .student-tbl thead {
+    .find-train-tbl thead {
         display: none;
     }
-    .student-tbl,
-    .student-tbl tbody .student-tbl tbody tr,
-    .student-tbl tbody td {
+    .find-train-tbl,
+    .find-train-tbl tbody .find-train-tbl tbody tr,
+    .find-train-tbl tbody td {
         display: block;
         width: 700px;
     }
@@ -676,15 +676,15 @@ td {
         border-radius: 5px;
         color: black;
     }
-    .student-tbl {
+    .find-train-tbl {
         min-width: 300px;
     }
-    .student-tbl thead {
+    .find-train-tbl thead {
         display: none;
     }
-    .student-tbl,
-    .student-tbl tbody .student-tbl tbody tr,
-    .student-tbl tbody td {
+    .find-train-tbl,
+    .find-train-tbl tbody .find-train-tbl tbody tr,
+    .find-train-tbl tbody td {
         display: block;
         width: 300px;
     }
