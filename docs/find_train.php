@@ -25,7 +25,10 @@
                         <option value="Mathara">Mathara</option>                        
                     </select>
                     <br>
-                    <input type="submit" value="Search" class="btn btn-primary" name="search_train">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-search"></i>
+                            Search          
+                    </button>
                 </form>                
             </div>
             <hr>
