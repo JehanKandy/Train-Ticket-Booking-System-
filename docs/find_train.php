@@ -29,6 +29,7 @@
                 </form>                
             </div>
             <hr>
+            <div class="design-by"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
         </div>
     </div>
 </div>
