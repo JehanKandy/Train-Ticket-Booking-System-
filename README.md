@@ -37,6 +37,7 @@
   
   1. DEVELOP
   2. UPDATE
+  - css/style.css
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
