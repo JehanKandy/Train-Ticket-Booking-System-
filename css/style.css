@@ -387,6 +387,11 @@ font-family: 'Teko', sans-serif;
 .find-box .title {
     text-align: center;
     font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.find-box .body {
+    padding: 15px 0 0 0;
 }
 
 
