@@ -12,20 +12,20 @@
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     Start Station : <br>
-                    <select name="" id="" class="input-feild">
+                    <select name="" id="" class="form-control">
                         <option value="kandy">Kandy</option>
                         <option value="Colombo">Colombo</option>   
                         <option value="Mathara">Mathara</option>                       
                     </select>
                     <br>
                     End Station : <br>
-                    <select name="" id="" class="input-feild">
+                    <select name="" id="" class="form-control">
                         <option value="kandy">Kandy</option>
                         <option value="Colombo">Colombo</option>   
                         <option value="Mathara">Mathara</option>                        
                     </select>
                     <br>
-                    <input type="submit" value="Search" class="search-trin-btn" name="search_train">
+                    <input type="submit" value="Search" class="btn btn-primary" name="search_train">
                 </form>
             </div>
         </div>
