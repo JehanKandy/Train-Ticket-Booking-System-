@@ -31,6 +31,16 @@
   - index.php
   - css/style.css
 
+  <hr>
+  
+  <h4>21 December 2022</h4>
+  
+  1. DEVELOP
+  - docs/find_train.php
+  - lib/layouts/nav_bar.php
+  2. UPDATE
+  - index.php
+  - css/style.css
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
