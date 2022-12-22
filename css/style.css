@@ -381,6 +381,12 @@ font-family: 'Teko', sans-serif;
     margin: 100px 0 0 0;
     padding: 50px;
     border-radius: 5px;
+    color: black;
+}
+
+.find-box .title {
+    text-align: center;
+    font-size: 30px;
 }
 
 
