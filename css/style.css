@@ -375,6 +375,14 @@ font-family: 'Teko', sans-serif;
     display: none;
 }
 
+.find-box {
+    width: 400px;
+    background-color: white;
+    margin: 100px 0 0 0;
+    padding: 50px;
+    border-radius: 5px;
+}
+
 
 /* 
     ***************************************************************************************
