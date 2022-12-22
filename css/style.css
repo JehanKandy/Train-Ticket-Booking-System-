@@ -533,6 +533,18 @@ td {
     #check:checked~ul {
         left: 0;
     }
+    .student-tbl {
+        min-width: 700px;
+    }
+    .student-tbl thead {
+        display: none;
+    }
+    .student-tbl,
+    .student-tbl tbody .student-tbl tbody tr,
+    .student-tbl tbody td {
+        display: block;
+        width: 700px;
+    }
 }
 
 
@@ -663,5 +675,17 @@ td {
         padding: 25px 25px 0 25px;
         border-radius: 5px;
         color: black;
+    }
+    .student-tbl {
+        min-width: 300px;
+    }
+    .student-tbl thead {
+        display: none;
+    }
+    .student-tbl,
+    .student-tbl tbody .student-tbl tbody tr,
+    .student-tbl tbody td {
+        display: block;
+        width: 300px;
     }
 }
