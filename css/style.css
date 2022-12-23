@@ -482,6 +482,38 @@ td {
     grid-area: a;
 }
 
+.g-item2 {
+    grid-area: b;
+}
+
+.g-item3 {
+    grid-area: c;
+}
+
+.g-item4 {
+    grid-area: d;
+}
+
+.g-item5 {
+    grid-area: e;
+}
+
+.g-item6 {
+    grid-area: f;
+}
+
+.g-item7 {
+    grid-area: g;
+}
+
+.g-item8 {
+    grid-area: h;
+}
+
+.g-item9 {
+    grid-area: i;
+}
+
 
 /* 
     ***************************************************************************************
