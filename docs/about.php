@@ -38,7 +38,7 @@
             </div>
             <div class="dev-img"></div>
             <div class="dev-contact">
-                <span><a href="https://github.com/JehanKandy" target="_blank"><i class="fab fa-github"></i> &nbsp; Github</a></span>
+                <span><a href="https://github.com/JehanKandy" target="_blank" style="text-decoration: none; font-size:15px;"><i class="fab fa-github"></i> &nbsp; Github</a></span>
             </div>
         </div>
     </div>
