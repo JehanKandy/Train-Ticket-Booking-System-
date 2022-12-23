@@ -11,8 +11,12 @@
     </div>
 </div>
 
+<div class="train-gallery-content">
+    <div class="container">
+        hi
+    </div>
+</div>
+
 
 <script src="../js/script.js"></script>
 <?php include("../lib/layouts/main_footer.php"); ?>
-
-
