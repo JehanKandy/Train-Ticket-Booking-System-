@@ -4,7 +4,10 @@
 
 <div class="train-gallery">
     <div class="container">
-        hi
+        <div class="title">Train Gallery</div>
+        <div class="body">
+            All trains
+        </div>
     </div>
 </div>
 
