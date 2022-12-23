@@ -36,6 +36,7 @@
             <div class="dev-post">
                     DEVELOPER
             </div>
+            <div class="dev-img"></div>
 
         </div>
     </div>
