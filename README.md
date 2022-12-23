@@ -50,7 +50,7 @@
   2. UPDATE
   - lib/layouts/main_footer.php
   - css/style.css
-  - lib/
+  - lib/layouts
 
   
   
