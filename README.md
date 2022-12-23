@@ -42,7 +42,7 @@
   
   <hr>
   
-  <h4>22 December 2022</h4>
+  <h4>23 December 2022</h4>
   
   1. DEVELOP
   - docs/gallery.php
