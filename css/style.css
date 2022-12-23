@@ -480,38 +480,74 @@ td {
 
 .g-item1 {
     grid-area: a;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item2 {
     grid-area: b;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item3 {
     grid-area: c;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item4 {
     grid-area: d;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item5 {
     grid-area: e;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item6 {
     grid-area: f;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item7 {
     grid-area: g;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item8 {
     grid-area: h;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .g-item9 {
     grid-area: i;
+    background-image: url("../images/train1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 
