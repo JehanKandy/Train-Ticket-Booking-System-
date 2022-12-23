@@ -23,12 +23,7 @@
             <div class="g-item7">hi</div>
             <div class="g-item8">hi</div>
             <div class="g-item9">hi</div>
-            <div class="g-item10">hi</div>
-            <div class="g-item11">hi</div>
-            <div class="g-item12">hi</div>
-            <div class="g-item13">hi</div>
-            <div class="g-item14">hi</div>
-            <div class="g-item15">hi</div>
+
         </div>
     </div>
 </div>
