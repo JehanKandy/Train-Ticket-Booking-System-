@@ -1,5 +1,5 @@
 <?php include("../lib/layouts/header.php");?>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../css/style.css">
 <?php include("../lib/layouts/nav_bar.php"); ?>
 
 
