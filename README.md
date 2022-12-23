@@ -45,7 +45,7 @@
   <h4>22 December 2022</h4>
   
   1. DEVELOP
-  - docs/
+  - docs/gallery.php
   2. UPDATE
 
   
