@@ -47,7 +47,7 @@
   1. DEVELOP
   - docs/gallery.php
   - docs/about.php
-  - docs/
+  - docs/train_routes.php
   2. UPDATE
   - lib/layouts/main_footer.php
   - css/style.css
