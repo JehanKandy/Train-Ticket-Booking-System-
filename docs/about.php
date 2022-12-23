@@ -32,6 +32,9 @@
             <hr>
             <div class="developer">
                 JehanKandy
+                <div class="dev-post">
+                    DEVELOPER
+                </div>
             </div>
 
         </div>
