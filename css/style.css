@@ -480,7 +480,7 @@ td {
 
 .g-item1 {
     grid-area: a;
-    background-image: url("../images/train3.jpg");
+    background-image: url("../images/old_train1.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -496,7 +496,7 @@ td {
 
 .g-item3 {
     grid-area: c;
-    background-image: url("../images/train4.jpg");
+    background-image: url("../images/old_train2.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -512,7 +512,7 @@ td {
 
 .g-item5 {
     grid-area: e;
-    background-image: url("../images/train1.jpg");
+    background-image: url("../images/train6.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -520,7 +520,7 @@ td {
 
 .g-item6 {
     grid-area: f;
-    background-image: url("../images/train1.jpg");
+    background-image: url("../images/train3.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
