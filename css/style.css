@@ -587,6 +587,10 @@ td {
 
 .about-us-content .body .img-about {
     background-image: url("../images/train5.jpg");
+    padding: 200px 0 200px 0;
+    margin: 40px 0 40px 0;
+    background-position: center;
+    background-size: cover;
 }
 
 
