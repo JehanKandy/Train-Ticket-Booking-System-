@@ -13,7 +13,20 @@
 
 <div class="train-gallery-content">
     <div class="container">
-        hi
+        <div class="gallery-grid">
+            <div class="g-item1"></div>
+            <div class="g-item2"></div>
+            <div class="g-item3"></div>
+            <div class="g-item4"></div>
+            <div class="g-item5"></div>
+            <div class="g-item6"></div>
+            <div class="g-item7"></div>
+            <div class="g-item8"></div>
+            <div class="g-item9"></div>
+            <div class="g-item10"></div>
+            <div class="g-item11"></div>
+            <div class="g-item12"></div>
+        </div>
     </div>
 </div>
 
