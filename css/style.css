@@ -609,6 +609,8 @@ td {
     background-image: url("../images/dev.jpeg");
     margin: 20px 400px 20px 400px;
     padding: 150px 50px 150px 50px;
+    background-position: center;
+    background-size: cover;
 }
 
 
