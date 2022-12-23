@@ -611,6 +611,7 @@ td {
     padding: 150px 50px 150px 50px;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
 }
 
 
@@ -729,6 +730,14 @@ td {
         padding: 45 45 45 45;
         margin-top: 40px;
         margin-bottom: 20px;
+    }
+    .about-us-content .body .dev-img {
+        background-image: url("../images/dev.jpeg");
+        margin: 20px 200px 20px 200px;
+        padding: 150px 50px 150px 50px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
     }
 }
 
