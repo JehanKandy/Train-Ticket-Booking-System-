@@ -591,6 +591,9 @@ td {
     margin: 40px 0 40px 0;
     background-position: center;
     background-size: cover;
+    color: white;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
 }
 
 
