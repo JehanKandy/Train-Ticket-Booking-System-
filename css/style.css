@@ -574,6 +574,12 @@ td {
     padding: 100px 0 100px 0;
 }
 
+.about-us-content .title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
 
 /* 
     ***************************************************************************************
