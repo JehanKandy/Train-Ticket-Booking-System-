@@ -455,10 +455,12 @@ td {
 .train-gallery .title {
     text-align: center;
     font-size: 50px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .train-gallery .body {
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .train-gallery-content {
@@ -560,6 +562,12 @@ td {
     padding-top: 300px;
     padding-bottom: 200px;
     margin-top: -90px;
+}
+
+.about-us .title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
 }
 
 
