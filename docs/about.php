@@ -8,9 +8,11 @@
     </div>
 </div>
 <div class="about-us-content">
-    <div class="title">Train Bookings</div>
-    <div class="body">
-        
+    <div class="container">
+        <div class="title">Train Bookings</div>
+        <div class="body">
+
+        </div>
     </div>
 </div>
 
