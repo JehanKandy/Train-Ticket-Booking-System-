@@ -810,7 +810,7 @@ td {
         display: block;
         width: 300px;
     }
-    .gallery-grid {
+    .train-gallery-content .gallery-grid {
         display: grid;
         width: 100%;
         height: auto;
