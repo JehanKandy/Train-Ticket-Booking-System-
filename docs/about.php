@@ -25,7 +25,14 @@
             <div class="img-about">
                 Train Booking - By JehanKandy
             </div>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus blanditiis rem exercitationem a illo iusto tempore voluptas, unde est, provident hic odit officia aperiam mollitia deleniti! Neque, quis tempore. Placeat.
+            Mollitia sit dolor ipsa totam repudiandae architecto ex! Ad aliquam est recusandae. Eligendi possimus voluptas fuga aspernatur dolorum soluta! Veritatis iusto, dolorem sunt repellendus autem voluptatibus adipisci. Veritatis, obcaecati animi.
         
+            <div class="developer">
+                JehanKandy
+            </div>
+
         </div>
     </div>
 </div>
