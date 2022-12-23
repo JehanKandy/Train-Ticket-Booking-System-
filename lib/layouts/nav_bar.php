@@ -3,24 +3,22 @@
 
 <div class="nav-content">
     <header class="header">
+        <nav class="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkicn"><i class="fas fa-bars"></i></label>
         <div class="train-logo">Train Booking</div>
-        <div class="line-icon">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <div class="nav-bar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Booking</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="find_train.php">Booking</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="">Train Routes</a></li>
                 <li><a href="">News</a></li>
                 <li><a href="">Login</a></li>
             </ul>
-        </div> 
+        </nav> 
     </header>
 </div>
 
-<script src="../js/script.js"></script>
+
+<script src="../../js/script.js"></script>
