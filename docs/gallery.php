@@ -14,3 +14,5 @@
 
 <script src="../js/script.js"></script>
 <?php include("../lib/layouts/main_footer.php"); ?>
+
+
