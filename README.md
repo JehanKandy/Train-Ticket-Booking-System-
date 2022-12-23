@@ -47,7 +47,7 @@
   1. DEVELOP
   - docs/gallery.php
   2. UPDATE
-  - lib/layouts/
+  - lib/layouts/main_footer.php
 
   
   
