@@ -46,7 +46,7 @@
   
   1. DEVELOP
   - docs/gallery.php
-  - docs/
+  - docs/about.php
   2. UPDATE
   - lib/layouts/main_footer.php
   - css/style.css
