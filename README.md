@@ -46,8 +46,7 @@
   
   1. DEVELOP
   2. UPDATE
-  - css/style.css
-  - docs/find_train.php
+
   
   
 <h1>Developers</h1>
