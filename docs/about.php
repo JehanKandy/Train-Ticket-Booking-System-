@@ -21,6 +21,11 @@
             Suscipit eius voluptatem necessitatibus dolores totam nam explicabo, sapiente odio tempore debitis est asperiores quos! Doloremque, quibusdam qui? Aliquam repellat similique molestiae iste quas consectetur odit molestias dolore nostrum ipsam!
             Dolore eos omnis labore, incidunt blanditiis consectetur ut veritatis accusantium hic eaque consequatur rerum reprehenderit earum delectus officiis tempora natus sapiente, exercitationem velit deserunt. Culpa excepturi quo dolor veniam eaque.
             Accusamus libero cumque sapiente fugit nisi maxime numquam repellendus maiores quibusdam dignissimos, vero vel cupiditate nam similique deleniti quas unde illum deserunt tempora rerum repudiandae animi iste doloremque? At, iure?
+
+            <div class="img-about">
+                Train Booking - By JehanKandy
+            </div>
+        
         </div>
     </div>
 </div>
