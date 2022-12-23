@@ -528,7 +528,7 @@ td {
 
 .g-item7 {
     grid-area: g;
-    background-image: url("../images/train1.jpg");
+    background-image: url("../images/train9.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -536,7 +536,7 @@ td {
 
 .g-item8 {
     grid-area: h;
-    background-image: url("../images/train1.jpg");
+    background-image: url("../images/train7.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -544,7 +544,7 @@ td {
 
 .g-item9 {
     grid-area: i;
-    background-image: url("../images/train1.jpg");
+    background-image: url("../images/train8.png");
     background-position: center;
     background-size: cover;
     border-radius: 5px;
