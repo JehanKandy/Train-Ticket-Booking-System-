@@ -447,9 +447,18 @@ td {
     background-size: cover;
     background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train7.jpg");
     color: white;
-    padding-top: 100px;
+    padding-top: 300px;
     padding-bottom: 200px;
     margin-top: -90px;
+}
+
+.train-gallery .title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.train-gallery .body {
+    text-align: center;
 }
 
 
