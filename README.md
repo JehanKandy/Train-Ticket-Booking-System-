@@ -39,7 +39,17 @@
   2. UPDATE
   - css/style.css
   - docs/find_train.php
-
+  
+  <hr>
+  
+  <h4>22 December 2022</h4>
+  
+  1. DEVELOP
+  2. UPDATE
+  - css/style.css
+  - docs/find_train.php
+  
+  
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
 
