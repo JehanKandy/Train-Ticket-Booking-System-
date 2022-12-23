@@ -48,7 +48,7 @@
   - docs/gallery.php
   2. UPDATE
   - lib/layouts/main_footer.php
-  - css/
+  - css/style.css
 
   
   
