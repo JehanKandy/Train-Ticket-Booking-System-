@@ -600,6 +600,15 @@ td {
     font-size: 20px;
 }
 
+.about-us-content .body .dev-post {
+    font-size: 15px;
+    color: #f09712;
+}
+
+.about-us-content .body .dev-img {
+    background-image: url("../images/dev.jpeg");
+}
+
 
 /* 
     ***************************************************************************************
