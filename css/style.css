@@ -659,10 +659,10 @@ td {
         display: grid;
         width: 100%;
         height: auto;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: minmax(250px, auto);
         grid-gap: 1rem;
-        grid-template-areas: "a a b" "b c c" "d d e" "f g g" "h h i";
+        grid-template-areas: "a a" "b c" "d d" "e f" "g g" "h i";
         padding: 45 45 45 45;
         margin-top: 40px;
         margin-bottom: 20px;
@@ -810,7 +810,7 @@ td {
         display: block;
         width: 300px;
     }
-    .train-gallery-content .gallery-grid {
+    .gallery-grid {
         display: grid;
         width: 100%;
         height: auto;
