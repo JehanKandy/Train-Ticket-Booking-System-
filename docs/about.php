@@ -7,7 +7,12 @@
         <div class="title">About Us</div>
     </div>
 </div>
-
+<div class="about-us-content">
+    <div class="title">Train Bookings</div>
+    <div class="body">
+        
+    </div>
+</div>
 
 <script src="../js/script.js"></script>
 <?php include("../lib/layouts/main_footer.php"); ?>
