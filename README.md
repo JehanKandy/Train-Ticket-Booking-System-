@@ -47,6 +47,7 @@
   1. DEVELOP
   - docs/gallery.php
   2. UPDATE
+  - lib/
 
   
   
