@@ -12,7 +12,7 @@
                 <li><a href="find_train.php">Booking</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="">Train Routes</a></li>
+                <li><a href="train_routes.php">Train Routes</a></li>
                 <li><a href="">News</a></li>
                 <li><a href="">Login</a></li>
             </ul>
