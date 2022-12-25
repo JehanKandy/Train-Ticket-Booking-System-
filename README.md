@@ -40,6 +40,15 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
 
   [more about mysqli_num_rows](https://www.w3schools.com/php/func_mysqli_num_rows.asp)
   
+         if(empty($username)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Username Error</strong> Username Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";
+        } 
+  
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
