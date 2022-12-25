@@ -802,6 +802,8 @@ td {
     border: 1px solid #8f8f8f;
     height: 45px;
     border-radius: 2px;
+    color: #8f8f8f;
+    transition: 0.5s;
 }
 
 .reg-btn {
@@ -811,6 +813,8 @@ td {
     border: 1px solid rgb(216, 55, 216);
     height: 45px;
     border-radius: 2px;
+    color: rgb(216, 55, 216);
+    transition: 0.5s;
 }
 
 
