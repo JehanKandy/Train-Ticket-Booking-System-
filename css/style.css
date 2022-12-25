@@ -684,6 +684,7 @@ td {
 }
 
 .login-footer-hr {
+    margin-top: -10px;
     border-top: 2px solid rgb(212, 212, 212);
 }
 
