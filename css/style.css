@@ -706,6 +706,17 @@ td {
     padding-bottom: 100px;
 }
 
+.train-reg-content {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train6.jpg");
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .train-login-content .body {
     background-color: white;
     color: #2c3e50;
@@ -713,9 +724,27 @@ td {
     width: 500px;
     margin-left: 1000px;
     border-radius: 8px;
+    border: 2px solid white;
+}
+
+.train-reg-content .body {
+    background-color: white;
+    color: #2c3e50;
+    padding: 90px 40px 10px 40px;
+    width: 500px;
+    margin-left: 1000px;
+    border-radius: 8px;
+    border: 2px solid white;
 }
 
 .train-login-content .body .title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 15px;
+}
+
+.train-reg-content .body .title {
     text-align: center;
     font-size: 35px;
     font-family: 'Rubik', sans-serif;
@@ -726,11 +755,11 @@ td {
     padding: 20px;
 }
 
-.train-login-content .body .content-body .username {
-    font-family: 'Rubik', sans-serif;
+.train-reg-content .body .content-body {
+    padding: 20px;
 }
 
-.train-login-content .body .content-body .password {
+.train-login-content .body .content-body .input-text {
     font-family: 'Rubik', sans-serif;
     padding-top: 12px;
 }
