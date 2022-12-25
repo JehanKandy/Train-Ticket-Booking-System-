@@ -60,7 +60,7 @@
   1. DEVELOP
   - docs/news.php
   - lib/layouts/login_footer.php
-  - lib/views/
+  - lib/views/login.php
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
