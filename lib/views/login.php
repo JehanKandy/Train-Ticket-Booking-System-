@@ -3,7 +3,9 @@
 
 <div class="train-login-content">
     <div class="body">
-            Login Here
+        <div class="title">Login Here</div>
+        <hr>
+        <hr>
     </div>
 </div>
 
