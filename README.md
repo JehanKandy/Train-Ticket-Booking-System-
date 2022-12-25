@@ -19,6 +19,10 @@ in first codeline
           $chech_user = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
           $chech_user_result = mysqli_query($con, $chech_user);
           $chech_user_nor = mysqli_num_rows($chech_user_result);
+          
+          
+
+I used function for get user input username, email, passweord and Confirm Password from reg.php
         
 
 <h1>Development Timelne</h1>
