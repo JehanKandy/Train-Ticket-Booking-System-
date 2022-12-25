@@ -923,4 +923,7 @@ td {
         background-size: cover;
         border-radius: 5px;
     }
+    .train-routes-content {
+        padding: 50px 50px 50px 50px;
+    }
 }
