@@ -36,6 +36,7 @@ and then I create a variable called `$chech_user_result` and assign `mysqli_quer
 
   [more about mysqli_query](https://www.w3schools.com/php/func_mysqli_query.asp)
 
+and the i again create variable called `$chech_user_nor` and assign `mysqli_num_rows($chech_user_result);` inoder to that the meaning of `mysqli_num_rows()` function for count data according to ` $chech_user_result = mysqli_query($con, $chech_user);`
 
 
 <h1>Development Timelne</h1>
