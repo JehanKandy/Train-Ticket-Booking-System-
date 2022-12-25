@@ -58,9 +58,7 @@
   <h4>25 December 2022</h4>
   
   1. DEVELOP
-  - docs/gallery.php
-  - docs/about.php
-  - docs/train_routes.php
+
   2. UPDATE
   - lib/layouts/main_footer.php
   - css/style.css
