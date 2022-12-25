@@ -62,7 +62,7 @@
   - lib/layouts/login_footer.php
   - lib/views/login.php
   - lib/views/reg.php
-  - lib/
+  - lib/function/
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
