@@ -12,7 +12,10 @@
 
 <div class="train-news-content">
     <div class="container">
-        hi
+        <div class="news-grid">
+            <div class="news1">hi</div>
+            <div class="news2">hi</div>
+        </div>
     </div>
 </div>
 
