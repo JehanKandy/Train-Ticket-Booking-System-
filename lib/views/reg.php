@@ -1,6 +1,10 @@
 <?php include("../layouts/header.php"); ?>
 <link rel="stylesheet" href="../../css/style.css">
 
+<div class="train-reg-content">
+    
+</div>
+
 
 <?php include("../layouts/login_footer.php"); ?>
 <script src="../../js/script.js"></script>
