@@ -2,7 +2,15 @@
 <link rel="stylesheet" href="../../css/style.css">
 
 <div class="train-reg-content">
-    
+    <div class="body">
+        <div class="title">Register Here</div>
+        <hr>
+            <div class="reg-content">
+                jashgdk
+            </div>
+        <hr>
+
+    </div>
 </div>
 
 
