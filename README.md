@@ -64,6 +64,15 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
  in above code I check `pass` and `$cpass` it means password and Confirm Password is equal or not, if not equal it gives output as `Password and Confirm Password not match..!`
  
  
+             if($chech_user_nor > 0){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>User Error</strong> User Already Exists...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>"; 
+            }
+ 
   [more about IF statements](https://www.w3schools.com/php/php_if_else.asp)
  
  
