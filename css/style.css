@@ -756,6 +756,8 @@ td {
 
 .login-btn:hover {
     background-color: rgb(216, 55, 216);
+    color: white;
+    cursor: pointer;
 }
 
 
