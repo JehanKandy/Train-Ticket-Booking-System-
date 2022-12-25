@@ -673,6 +673,7 @@ td {
     grid-area: a;
     border: 2px solid red;
     border-radius: 5px;
+    padding: 20px;
 }
 
 .news-grid .news2 {
