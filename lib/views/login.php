@@ -16,6 +16,9 @@
             </div>
         </form>
 
+        forget Password <br>
+        Don't Have an Account ?
+
         <hr>
     </div>
 </div>
