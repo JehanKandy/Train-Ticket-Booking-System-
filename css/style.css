@@ -713,8 +713,8 @@ td {
     background-size: cover;
     background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train6.jpg");
     color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .train-login-content .body {
@@ -730,7 +730,7 @@ td {
 .train-reg-content .body {
     background-color: white;
     color: #2c3e50;
-    padding: 90px 40px 10px 40px;
+    padding: 70px 40px 10px 40px;
     width: 500px;
     margin-left: 1000px;
     border-radius: 8px;
@@ -827,6 +827,12 @@ td {
     background-color: rgb(216, 55, 216);
     cursor: pointer;
     color: white;
+}
+
+.develop-by-reg {
+    text-align: center;
+    color: black;
+    padding-top: 60px;
 }
 
 
