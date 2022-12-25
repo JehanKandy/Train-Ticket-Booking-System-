@@ -30,6 +30,13 @@ I used function for get user input username, email, passweord and Confirm Passwo
           }
           
 in first code i create php variable called `$check_user` and assign data which from `user_tbl` where username equal to `$username` and email equal to `email`
+and then I create a variable called `$chech_user_result` and assign `mysqli_query($con, $chech_user);`
+<br>
+`mysqli_query`  function performs a query against a database. 
+
+  [more about mysqli_query](https://www.w3schools.com/php/func_mysqli_query.asp)
+
+
 
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
