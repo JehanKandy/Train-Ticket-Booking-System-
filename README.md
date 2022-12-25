@@ -79,6 +79,8 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
                   $insert_user = "INSERT INTO user_tbl(username,email_user,user_pass,user_type,is_active,join_date)VALUES('$username','$email','$pass','user',0,NOW())";
                 $insert_user_result = mysqli_query($con, $insert_user);
   
+  
+   
   [more about IF statements](https://www.w3schools.com/php/php_if_else.asp)
  
  
