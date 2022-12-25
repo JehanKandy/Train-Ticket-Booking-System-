@@ -25,7 +25,7 @@
                 </div>
             </form>
         <hr>
-        Already Have an Account ? <a href="reg.php" style="color: rgb(216, 55, 216); text-decoration: none;">Login</a>
+        Already Have an Account ? <a href="login.php" style="color: rgb(216, 55, 216); text-decoration: none;">Login</a>
         <div class="develop-by-reg"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
     </div>
 </div>
