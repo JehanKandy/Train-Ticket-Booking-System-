@@ -936,15 +936,15 @@ td {
         background-size: cover;
         background-image: -webkit-linear-gradient(rgba(146, 146, 146, 0.7), rgba(0, 0, 0, 0.7)), url("../images/train6.jpg");
         color: white;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 160px;
+        padding-bottom: 160px;
     }
     .train-login-content .body {
         background-color: white;
         color: #2c3e50;
         padding: 90px 40px 10px 40px;
         width: 500px;
-        margin-left: 1000px;
+        margin-left: 200px;
         border-radius: 8px;
     }
 }
