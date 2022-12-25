@@ -58,7 +58,7 @@
   <h4>25 December 2022</h4>
   
   1. DEVELOP
-  - docs/
+  - docs/news.php
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
