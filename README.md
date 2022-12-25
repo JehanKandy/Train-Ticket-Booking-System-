@@ -52,7 +52,19 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
  in above code i check the `$username` is not empty, if the variable empty it gives output as 'Username Cannot be Empty....!'
  it's same for other 3 variable (`$email`, `$pass`, `$cpass`)
  
+         if($pass != $cpass){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error</strong> Password and Confirm Password not match..!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>"; 
+        }
+ 
+ 
+ 
   [more about IF statements](https://www.w3schools.com/php/php_if_else.asp)
+ 
  
   
 <h1>Development Timelne</h1>
