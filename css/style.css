@@ -722,6 +722,19 @@ td {
     padding-bottom: 15px;
 }
 
+.train-login-content .body .content-body {
+    padding: 20px;
+}
+
+.train-login-content .body .content-body .username {
+    font-family: 'Rubik', sans-serif;
+}
+
+.train-login-content .body .content-body .password {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 12px;
+}
+
 
 /* 
     ***************************************************************************************
