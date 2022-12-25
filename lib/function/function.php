@@ -10,6 +10,8 @@
         $con = Connection();
 
         $chech_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email'";
+        $chech_user_result = mysqli_query($con, $chech_user);
+        $chech_user_nor = mysqli_num_rows($chech_user_result);
 
         if(empty($username)){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
