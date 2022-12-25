@@ -83,7 +83,7 @@
                     </div>"; 
                 }else{
                     return  "<div class='alert alert-success alert-dismissible fade show' role='alert'>
-                            <strong>Successful </strong> Account Create Successful <a jref='login.php'>Login</a>
+                            <strong>Successful </strong> Account Create Successful <a href='login.php'>Login</a>
                             <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                             <span aria-hidden='true'>&times;</span>
                             </button>
