@@ -9,7 +9,8 @@
             include("../function/function.php"); 
 
             if(isset($_POST['register'])){
-                $result = reg_user($_POST['username'], $_POST['email'],$_POST['pass'], $_POST['cpass'])
+                $result = reg_user($_POST['username'], $_POST['email'],$_POST['pass'], $_POST['cpass']);
+                echo $result;
             }
         ?>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
