@@ -64,6 +64,9 @@
   - lib/views/reg.php
   - lib/function/config.php
   - lib/function/function.php
+  - - functions:  reg_user()
+    
+  
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
