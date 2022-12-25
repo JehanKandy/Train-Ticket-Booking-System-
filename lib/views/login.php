@@ -4,7 +4,7 @@
 <div class="train-login-content">
     <div class="body">
         <div class="title">Login Here</div>
-        <hr>
+        <hr class="login-hr">
         <form action="<?php echo($_SERVER['PHP_SELF']);?>" method="POST">
             <div class="content-body">
                 <p class="username">Username :</p>
@@ -16,9 +16,9 @@
             </div>
         </form>
 
-        <hr>
+        <hr class="login-hr">
         <a href="" style="color: rgb(216, 55, 216); text-decoration: none;">forget Password</a><br>
-        Don't Have an Account ? <a href="" style="color: rgb(216, 55, 216); text-decoration: none;">Create One</a>
+        Don't Have an Account ? <a href="reg.php" style="color: rgb(216, 55, 216); text-decoration: none;">Create One</a>
 
         <div class="develop-by"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
     </div>
