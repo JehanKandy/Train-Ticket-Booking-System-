@@ -48,7 +48,10 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
                     </button>
             </div>";
         } 
-  
+        
+ in above code i check the `$username` is not empty, if the variable empty it gives output as 'Username Cannot be Empty....!'
+ it's same for other 3 variable (`$email`, `$pass`, `$cpass`)
+ 
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
