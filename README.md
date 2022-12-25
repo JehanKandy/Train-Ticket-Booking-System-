@@ -53,7 +53,18 @@
   - css/style.css
   - lib/layouts/nav_bar.php
 
+  <hr>
   
+  <h4>23 December 2022</h4>
+  
+  1. DEVELOP
+  - docs/gallery.php
+  - docs/about.php
+  - docs/train_routes.php
+  2. UPDATE
+  - lib/layouts/main_footer.php
+  - css/style.css
+  - lib/layouts/nav_bar.php  
   
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
