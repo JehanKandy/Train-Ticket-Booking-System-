@@ -21,6 +21,7 @@
                         <th scope="col">Start Time </th>
                         <th scope="col">End Station</th>
                         <th scope="col">Train Arrival</th>
+                        <th scope="col">Route Distance</th>
                         <th scope="col">Train Type</th>
                         <th scope="col">Seat Type</th>
                         <th scope="col"></th>
