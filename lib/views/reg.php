@@ -5,6 +5,11 @@
     <div class="body">
         <div class="title">Register Here</div>
         <hr>
+        <?php 
+            include("../function/function.php"); 
+
+        
+        ?>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
                 <div class="reg-content">
                     <p class="input-text">Username : </p>
