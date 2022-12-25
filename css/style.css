@@ -798,11 +798,19 @@ td {
 .reset-btn {
     margin-top: 20px;
     width: 49%;
+    background: none;
+    border: 1px solid #8f8f8f;
+    height: 45px;
+    border-radius: 2px;
 }
 
 .reg-btn {
     margin-top: 20px;
     width: 49%;
+    background: none;
+    border: 1px solid rgb(216, 55, 216);
+    height: 45px;
+    border-radius: 2px;
 }
 
 
