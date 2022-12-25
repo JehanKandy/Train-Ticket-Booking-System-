@@ -16,8 +16,8 @@
             </div>
         </form>
 
-        forget Password <br>
-        Don't Have an Account ?
+        <a href="" style="color: rgb(216, 55, 216); text-decoration: none;">forget Password</a><br>
+        Don't Have an Account ? <a href="" style="color: rgb(216, 55, 216); text-decoration: none;">Create One</a>
 
         <hr>
     </div>
