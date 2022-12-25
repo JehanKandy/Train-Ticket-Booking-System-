@@ -755,7 +755,7 @@ td {
     padding: 20px;
 }
 
-.train-reg-content .body .content-body {
+.train-reg-content .body .reg-content {
     padding: 20px;
 }
 
@@ -793,6 +793,16 @@ td {
     text-align: center;
     color: black;
     padding-top: 100px;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    width: 49%;
+}
+
+.reg-btn {
+    margin-top: 20px;
+    width: 49%;
 }
 
 
