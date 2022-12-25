@@ -806,6 +806,12 @@ td {
     transition: 0.5s;
 }
 
+.reset-btn:hover {
+    background-color: #8f8f8f;
+    color: white;
+    cursor: pointer;
+}
+
 .reg-btn {
     margin-top: 20px;
     width: 49%;
@@ -815,6 +821,12 @@ td {
     border-radius: 2px;
     color: rgb(216, 55, 216);
     transition: 0.5s;
+}
+
+.reg-btn:hover {
+    background-color: rgb(216, 55, 216);
+    cursor: pointer;
+    color: white;
 }
 
 
