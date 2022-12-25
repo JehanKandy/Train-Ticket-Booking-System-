@@ -23,7 +23,11 @@ in first codeline
           
 
 I used function for get user input username, email, passweord and Confirm Password from reg.php
-        
+   
+          if(isset($_POST['register'])){
+              $result = reg_user($_POST['username'], $_POST['email'],md5($_POST['pass']), md5($_POST['cpass']));
+              echo $result;
+          }
 
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
