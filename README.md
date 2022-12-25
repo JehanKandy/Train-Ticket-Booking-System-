@@ -72,6 +72,8 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
                     </button>
             </div>"; 
             }
+            
+  in above code I check that are there any users according to user enterd values, if there is existing user it gives output as ` User Already Exists...!`        
  
   [more about IF statements](https://www.w3schools.com/php/php_if_else.asp)
  
