@@ -7,10 +7,12 @@
         <hr>
         <form action="<?php echo($_SERVER['PHP_SELF']);?>" method="POST">
             <div class="content-body">
-            <p class="username">Username :</p>
-            <input type="text" name="username" id="userName" class="input-feild" placeholder="Username"><br>
-            <p class="password">Password :</p>
-            <input type="password" name="password" id="passWord" class="input-feild" placeholder="Password">
+                <p class="username">Username :</p>
+                <input type="text" name="username" id="userName" class="input-feild" placeholder="Username"><br>
+                <p class="password">Password :</p>
+                <input type="password" name="password" id="passWord" class="input-feild" placeholder="Password">
+
+                <input type="submit" value="Login" class="login-btn" name="login">
             </div>
         </form>
 
