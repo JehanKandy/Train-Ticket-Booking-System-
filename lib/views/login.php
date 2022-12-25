@@ -1,26 +1,30 @@
 <?php include("../layouts/header.php"); ?>
 <link rel="stylesheet" href="../../css/style.css">
 
-<div class="train-login-content">
+<div class="train-reg-content">
     <div class="body">
-        <div class="title">Login Here</div>
-        <hr class="login-hr">
-        <form action="<?php echo($_SERVER['PHP_SELF']);?>" method="POST">
-            <div class="content-body">
-                <p class="input-text">Username :</p>
-                <input type="text" name="username" id="userName" class="input-feild" placeholder="Username"><br>
-                <p class="input-text">Password :</p>
-                <input type="password" name="password" id="passWord" class="input-feild" placeholder="Password">
+        <div class="title">Register Here</div>
+        <hr>
+            <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
+                <div class="reg-content">
+                    <p class="input-text">Username : </p>
+                    <input type="text" name="username" id="logUsername" class="input-feild" placeholder="Username"><br>
 
-                <input type="submit" value="Login" class="login-btn" name="login">
-            </div>
-        </form>
+                    <p class="input-text">Email : </p>
+                    <input type="email" name="email" id="regemail" class="input-feild" placeholder="Email"><br>
 
-        <hr class="login-hr">
-        <a href="" style="color: rgb(216, 55, 216); text-decoration: none;">forget Password</a><br>
-        Don't Have an Account ? <a href="reg.php" style="color: rgb(216, 55, 216); text-decoration: none;">Create One</a>
+                    <p class="input-text">Password : </p>
+                    <input type="password" name="pass" id="regpass" class="input-feild" placeholder="Password"><br>
 
-        <div class="develop-by"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
+                    <p class="input-text">Confirm Password : </p>
+                    <input type="password" name="cpass" id="regcpass" class="input-feild" placeholder="Confirm Password"><br>
+
+                    <span>
+                        <input type="reset" value="Clear" class="reset-btn"><input type="submit" value="Register" name="register" class="reg-btn">
+                    </span>
+                </div>
+            </form>
+        <hr>
     </div>
 </div>
 
