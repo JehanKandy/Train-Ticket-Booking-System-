@@ -34,7 +34,7 @@
                         <td>Colombo</td>
                         <td>6.30am</td>
                         <td>Badulla</td>
-                        <td>5.00pc</td>
+                        <td>5.00pm</td>
                         <td>Express</td>
                         <td>1st Class, 2nd Class, 3rd Class</td>
                         <td><a href="#"><button class="btn btn-primary">info</button></a></td>
