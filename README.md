@@ -63,6 +63,7 @@
   - lib/views/login.php
   - lib/views/reg.php
   - lib/function/config.php
+  - lib/function/function.php
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
