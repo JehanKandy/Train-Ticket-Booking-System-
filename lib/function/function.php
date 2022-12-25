@@ -11,15 +11,15 @@
 
         if(empty($username)){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-                <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                <span aria-hidden='true'>&times;</span>
-                </button>
+                    <strong>Username Error</strong> Username Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
             </div>";
         }
         if(empty($email)){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
-                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <strong>Email Error</strong> Email Cannot be Empty....!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
@@ -27,7 +27,7 @@
         }
         if(empty($pass)){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
-                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <strong>Password Error</strong>  Password Cannot be Empty....!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
@@ -35,7 +35,7 @@
         }
         if(empty($cpass)){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
-                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <strong>Password Error</strong> Confirm Password Cannot be Empty....!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
@@ -43,7 +43,7 @@
         }
         if($pass != $cpass){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
-                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <strong>Password Error</strong> Password and Confirm Password not match..!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
