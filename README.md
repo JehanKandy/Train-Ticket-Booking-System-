@@ -28,6 +28,8 @@ I used function for get user input username, email, passweord and Confirm Passwo
               $result = reg_user($_POST['username'], $_POST['email'],md5($_POST['pass']), md5($_POST['cpass']));
               echo $result;
           }
+          
+in first code i create php variable called `$check_user` and assign data which from `user_tbl` where username equal to `$username` and email equal to `email`
 
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
