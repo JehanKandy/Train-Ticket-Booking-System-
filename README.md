@@ -65,6 +65,7 @@
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
+  - index.php
   
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
