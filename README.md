@@ -74,7 +74,8 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
             }
             
   in above code I check that are there any users according to user enterd values, if there is existing user it gives output as ` User Already Exists...!`        
- 
+  if there are not any user according to user added values the values insert to the database table called `user_tbl` as following
+  
   [more about IF statements](https://www.w3schools.com/php/php_if_else.asp)
  
  
