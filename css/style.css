@@ -683,6 +683,10 @@ td {
     padding: 20px;
 }
 
+.login-footer-hr {
+    border-top: 2px solid rgb(212, 212, 212);
+}
+
 .login-footer-content {
     text-align: center;
 }
