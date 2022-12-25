@@ -10,8 +10,8 @@
     </div>
     <div class="w3-show-inline-block">
         <div class="w3-bar">
-            <a href=""><button class="book-trip-home-btn">Book A Ticket</button></a>
-            <a href=""><button class="login-home-btn">Login Here</button></a>
+            <a href="docs/find_train.php"><button class="book-trip-home-btn">Book A Ticket</button></a>
+            <a href="lib/views/login.php"><button class="login-home-btn">Login Here</button></a>
         </div>
     </div>
 
