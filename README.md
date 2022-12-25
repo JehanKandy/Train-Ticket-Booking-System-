@@ -9,7 +9,16 @@
         
 
 
+[function file](https://github.com/JehanKandy/Train-Ticket-Booking-System-/blob/main/lib/function/function.php)
+
 in first codeline
+
+          function reg_user($username, $email, $pass, $cpass){
+          $con = Connection();
+
+          $chech_user = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
+          $chech_user_result = mysqli_query($con, $chech_user);
+          $chech_user_nor = mysqli_num_rows($chech_user_result);
         
 
 <h1>Development Timelne</h1>
