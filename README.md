@@ -59,7 +59,7 @@
   
   1. DEVELOP
   - docs/news.php
-  - lib/
+  - lib/layouts/
   2. UPDATE
   - css/style.css
   - lib/layouts/nav_bar.php  
