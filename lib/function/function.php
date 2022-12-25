@@ -9,6 +9,8 @@
     function reg_user($username, $email, $pass, $cpass){
         $con = Connection();
 
+        $chech_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email'";
+
         if(empty($username)){
             return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
                     <strong>Username Error</strong> Username Cannot be Empty....!
@@ -48,6 +50,9 @@
                     <span aria-hidden='true'>&times;</span>
                     </button>
             </div>"; 
+        }
+        else{
+
         }
         
     }
