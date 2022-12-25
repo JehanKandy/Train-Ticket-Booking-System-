@@ -709,7 +709,7 @@ td {
 .train-login-content .body {
     background-color: white;
     color: #2c3e50;
-    padding: 70px 40px 100px 40px;
+    padding: 90px 40px 10px 40px;
     width: 500px;
     margin-left: 1000px;
     border-radius: 8px;
@@ -758,6 +758,12 @@ td {
     background-color: rgb(216, 55, 216);
     color: white;
     cursor: pointer;
+}
+
+.develop-by {
+    text-align: center;
+    color: black;
+    padding-top: 100px;
 }
 
 
@@ -1077,5 +1083,13 @@ td {
         padding: 45 45 45 45;
         margin-top: 40px;
         margin-bottom: 20px;
+    }
+    .train-login-content .body {
+        background-color: white;
+        color: #2c3e50;
+        padding: 90px 20px 10px 20px;
+        width: 335px;
+        margin-left: 20px;
+        border-radius: 8px;
     }
 }
