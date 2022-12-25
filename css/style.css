@@ -760,6 +760,9 @@ td {
         background-size: cover;
         border-radius: 5px;
     }
+    .train-routes-content {
+        padding: 50px 100px 100px 50px;
+    }
 }
 
 
