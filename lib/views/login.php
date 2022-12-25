@@ -2,8 +2,10 @@
 <link rel="stylesheet" href="../../css/style.css">
 
 <div class="train-login-content">
-    <div class="body">
-        Login Here
+    <div class="container">
+        <div class="body">
+            Login Here
+        </div>
     </div>
 </div>
 
