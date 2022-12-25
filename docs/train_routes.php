@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="train-routes-content">
-    <div class="container">
+
     <table class="find-train-tbl">
                 <thead class="thead-dark">
                     <tr>
@@ -41,7 +41,7 @@
                     </tr>
                 </tbody>
             </table>
-    </div>
+
 </div>
 
 <script src="../js/script.js"></script>
