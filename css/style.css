@@ -712,6 +712,13 @@ td {
     padding: 70px 40px 100px 40px;
     width: 500px;
     margin-left: 1000px;
+    border-radius: 8px;
+}
+
+.train-login-content .body .title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
 }
 
 
