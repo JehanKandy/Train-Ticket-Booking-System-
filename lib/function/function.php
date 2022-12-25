@@ -64,6 +64,18 @@
             }
             else{
                 $insert_user = "INSERT INTO user_tbl(username,email_user,user_pass,user_type,is_active,join_date)VALUES('$username','$email','$pass','user',0,NOW())";
+                $insert_user_result = mysqli_query($con, $insert_user);
+
+                if(!$insert_user_result){
+                    return  "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
+                            <strong>User Error</strong> User Already Exists...!
+                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                            <span aria-hidden='true'>&times;</span>
+                            </button>
+                    </div>"; 
+                }else{
+
+                }
             }
         }
         
