@@ -139,12 +139,21 @@
                 }            
         }
         else{
-            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                    <strong>User Error</strong>  User Does not Exists....!
-                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                    <span aria-hidden='true'>&times;</span>
-                    </button>
-            </div>"; 
+            if($check_user_row['is_active'] == 0){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>User Error</strong>  User Deactivate....!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                </div>";  
+            }else{
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>User Error</strong>  User Does not Exists....!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                </div>";  
+            }
         }    
     }
 
