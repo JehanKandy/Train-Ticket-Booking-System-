@@ -155,6 +155,24 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
   - lib/layouts/nav_bar.php  
   - index.php
   
+  <hr>
+  
+  <h4>25 December 2022</h4>
+  
+  1. DEVELOP
+  - docs/news.php
+  - lib/layouts/login_footer.php
+  - lib/views/login.php
+  - lib/views/reg.php
+  - lib/function/config.php
+  - lib/function/function.php
+  - - functions:  reg_user()
+    
+  
+  2. UPDATE
+  - css/style.css
+  - lib/layouts/nav_bar.php  
+  - index.php  
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
 
