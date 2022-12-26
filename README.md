@@ -163,6 +163,7 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
     
   
   2. UPDATE
+  - lib/function/function.php
 
 
 <h1>Developers</h1>
