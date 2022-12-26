@@ -136,7 +136,7 @@ now I check the user is panding user or not for that I use following codelines
             header("location:waiting_user.php");
         }
 
-
+in above code I create a session called `$_SESSION['waitingUser']` for get login user's email to check the user is pending user or not
 if the user is pending user and header to waiting_user.php file
 
         
