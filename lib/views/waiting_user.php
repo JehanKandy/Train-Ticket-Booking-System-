@@ -6,7 +6,7 @@
     <div class="container">
         <div class="waiting-body">
             <div class="username-text">
-                <?php waiting_user(); ?>
+                Hi <?php waiting_user(); ?>..!
             </div>
         </div>
     </div>
