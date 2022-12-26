@@ -96,6 +96,8 @@
     function login_user($username, $user_pass){
         $con = Connection();
 
+
+
         $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' && is_active = 1 && is_pending = 0";
         $check_user_result = mysqli_query($con, $check_user);
         $check_user_nor = mysqli_num_rows($check_user_result);
@@ -121,7 +123,10 @@
         $waiting_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' && is_active = 0 && is_pending = 1";
         $waiting_user_result = mysqli_query($con, $waiting_user);
         $waiting_user_nor = mysqli_num_rows($waiting_user_result);
+        $waiting_user_row = mysqli_fetch_assoc($waiting_user_result);
 
+        $_SESSION['waitingUser'] = $waiting_user_row['email_user'];
+        
         if($waiting_user_nor > 0){
             header("location:waiting_user.php");
         }
