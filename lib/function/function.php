@@ -119,7 +119,6 @@
         }
 
         if($check_user_nor > 0){
-            if($check_user_row['is_active'] == 1){
                 if($check_user_row['user_type'] == 'user'){
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email_user'];
@@ -129,12 +128,7 @@
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email_user'];
                     header("location:../routes/user.php");
-                }
-
-            }
-            elseif($check_user_row['is_active'] == 0){
-                header("location:wait_user.php");
-            }
+                }            
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
