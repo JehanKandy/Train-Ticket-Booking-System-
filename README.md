@@ -163,6 +163,7 @@ in here i use `setcookie` and `$_SESSION` the meaning of `setcookie` is create a
  
  
  and lastly in this function i use following codelines 
+ 
          else{
             if($check_user_row['is_active'] == 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
@@ -182,6 +183,9 @@ in here i use `setcookie` and `$_SESSION` the meaning of `setcookie` is create a
         } 
         
 for if the user is deactivated buy admin the user can get output as `User Deactivate` if there are no existing user in database user can get outupt as `User Does not Exists....!`    
+  
+<hr>  
+  
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
