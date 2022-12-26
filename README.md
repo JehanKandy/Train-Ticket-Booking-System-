@@ -160,13 +160,7 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
   <h4>25 December 2022</h4>
   
   1. DEVELOP
-  - docs/news.php
-  - lib/layouts/login_footer.php
-  - lib/views/login.php
-  - lib/views/reg.php
-  - lib/function/config.php
-  - lib/function/function.php
-  - - functions:  reg_user()
+
     
   
   2. UPDATE
