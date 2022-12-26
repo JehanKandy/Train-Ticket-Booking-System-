@@ -1,11 +1,12 @@
 <?php include("../layouts/header.php"); ?>
 <link rel="stylesheet" href="../../css/style.css">
+<?php include("../function/function.php"); ?>
 
 <div class="waiting-content">
     <div class="container">
         <div class="waiting-body">
             <div class="username-text">
-                <?php ?>
+                <?php waiting_user(); ?>
             </div>
         </div>
     </div>
