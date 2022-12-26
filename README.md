@@ -5,7 +5,7 @@
 
 <h1>Explain Functions</h1>
   <h4>25 December 2022</h4>
-       <h5><b>reg_user</b></h5>
+       <h5><b>reg_user()</b></h5>
         
 
 
@@ -87,7 +87,9 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
  <hr>
  
    <h4>25 December 2022</h4>
-       <h5><b>reg_user</b></h5>
+       <h5><b>login_user()</b></h5>
+       
+ in this function first codlines are same as reg_user() function.      
  
   
 <h1>Development Timelne</h1>
