@@ -126,7 +126,7 @@
             header("location:waiting_user.php");
         }
 
-        if($check_user_nor > 0){
+        elseif($check_user_nor > 0){
                 if($check_user_row['user_type'] == 'user'){
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email_user'];
