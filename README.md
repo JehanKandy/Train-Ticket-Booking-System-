@@ -84,6 +84,8 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
   [more about IF statements](https://www.w3schools.com/php/php_if_else.asp)
  
  
+ <hr>
+ 
    <h4>25 December 2022</h4>
        <h5><b>reg_user</b></h5>
  
