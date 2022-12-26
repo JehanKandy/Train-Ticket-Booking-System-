@@ -163,6 +163,7 @@ in here i use `setcookie` and `$_SESSION` the meaning of `setcookie` is create a
  
  
  and lastly in this function i use following codelines 
+ 
          else{
             if($check_user_row['is_active'] == 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
