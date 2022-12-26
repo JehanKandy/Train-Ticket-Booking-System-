@@ -192,6 +192,15 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
   
  in order to this function I want to print user who is not active user and that user must be a pending user, for that i use following codeline to do that 
 
+    function waiting_user(){
+        $con = Connection();
+
+        $waiting_user_username = strval($_SESSION['waitingUser']);
+
+        echo $waiting_user_username;
+    }
+
+
 <hr>
   
 <h1>Development Timelne</h1>
