@@ -123,6 +123,22 @@ and then i check the username and password is empty or not usoing following code
             </div>"; 
         }
         
+        
+now I check the user is panding user or not for that I use following codelines
+
+        $waiting_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' $$ is_active = 0 && is_pending = 1";
+        $waiting_user_result = mysqli_query($con, $waiting_user);
+        $waiting_user_nor = mysqli_num_rows($waiting_user_result);
+
+        if($waiting_user_nor > 0){
+            header("location:waiting_user.php");
+        }
+
+
+if the user is pending user and header to waiting_user.php file
+
+
+        
 and I check are there any user according to user input values using
 
         if($check_user_nor > 0){
