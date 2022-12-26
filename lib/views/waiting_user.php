@@ -8,6 +8,10 @@
             <div class="username-text">
                 Hi <?php waiting_user(); ?>..!
             </div>
+
+            <div class="msg-text">
+                Your account approval is still pending
+            </div>
         </div>
     </div>
 </div>
