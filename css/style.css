@@ -859,6 +859,8 @@ td {
 
 .waiting-content .waiting-body .username-text {
     margin-bottom: 50px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
 }
 
 
