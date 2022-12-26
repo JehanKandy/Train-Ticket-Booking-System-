@@ -119,6 +119,8 @@
         }
 
         $waiting_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' $$ is_active = 0 && is_pending = 1";
+        $waiting_user_result = mysqli_query($con, $waiting_user);
+        $waiting_user_nor = mysqli_num_rows($waiting_user_result);
 
         if($check_user_nor > 0){
                 if($check_user_row['user_type'] == 'user'){
