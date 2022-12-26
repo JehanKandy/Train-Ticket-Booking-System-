@@ -130,7 +130,7 @@ now I check the user is panding user or not for that I use following codelines
         $waiting_user_result = mysqli_query($con, $waiting_user);
         $waiting_user_nor = mysqli_num_rows($waiting_user_result);
 
-        $_SESSION['waitingUser'] = $waiting_user_row['email_user'];
+        $_SESSION['waitingUser'] = $waiting_user_row['username'];
         
         if($waiting_user_nor > 0){
             header("location:waiting_user.php");
