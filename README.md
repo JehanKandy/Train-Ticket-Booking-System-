@@ -188,7 +188,7 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
   
 <hr>  
   
-<h5><b>login_user()</b></h5>
+<h5><b>waiting_user()</b></h5>
 
 
 <hr>
