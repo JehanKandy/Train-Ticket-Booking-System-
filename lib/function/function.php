@@ -125,7 +125,7 @@
         $waiting_user_nor = mysqli_num_rows($waiting_user_result);
         $waiting_user_row = mysqli_fetch_assoc($waiting_user_result);
 
-        $_SESSION['waitingUser'] = $waiting_user_row['email_user'];
+        $_SESSION['waitingUser'] = $waiting_user_row['username'];
         
         if($waiting_user_nor > 0){
             header("location:waiting_user.php");
@@ -164,6 +164,10 @@
 
     function waiting_user(){
         $con = Connection();
+
+        $waiting_user_username = strval($_SESSION['waitingUser']);
+
+        echo $waiting_user_username;
     }
 
 
