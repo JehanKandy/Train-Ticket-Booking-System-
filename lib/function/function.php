@@ -90,9 +90,15 @@
                     </div>"; 
                 }
             }
-        }
-        
+        }        
     }
+
+    function login_user($username,$user_pass){
+        $con = Connection();
+    }
+
+
+
 
 
 ?>
