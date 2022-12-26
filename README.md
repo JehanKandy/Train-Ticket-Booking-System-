@@ -269,6 +269,7 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
   - lib/views/waiting_user.php
     
   2. UPDATE
+  - css/style.css
   - lib/layouts/login.php
   - lib/function/function.php
   - - functions login_user()
