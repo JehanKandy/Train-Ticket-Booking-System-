@@ -132,7 +132,19 @@ next I check the user is active user or not by using
 if user not active it follow up content of following if condition
 
         elseif($check_user_row['is_active'] == 0){
-        
+       
+ then I check the user is user or an admin for that i use following codelines 
+ 
+                 if($check_user_row['user_type'] == 'user'){
+                    setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
+                    $_SESSION['LoginSession'] = $check_user_row['email_user'];
+                    header("location:../routes/user.php");
+                }
+                elseif($check_user_row['user_type'] == 'admin'){
+                    setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
+                    $_SESSION['LoginSession'] = $check_user_row['email_user'];
+                    header("location:../routes/user.php");
+                }
         
   
 <h1>Development Timelne</h1>
