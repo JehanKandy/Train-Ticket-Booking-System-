@@ -93,8 +93,33 @@
         }        
     }
 
-    function login_user($username,$user_pass){
+    function login_user($username, $user_pass){
         $con = Connection();
+
+        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass'";
+        $check_user_result = mysqli_query($con, $check_user);
+        $check_user_nor = mysqli_num_rows($check_user_result);
+        $check_user_row = mysqli_fetch_assoc($check_user_result);
+
+        if(empty($username)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Username Error</strong> Username Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";
+        }
+        if(empty($user_pass)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error</strong>  Password Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>"; 
+        }
+
+
+    
     }
 
 
