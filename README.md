@@ -103,6 +103,37 @@ but in last codeline i create a variable called `$check_user_row` and assign `my
 
 and then i check the username and password is empty or not usoing following codelines
 
+
+        if(empty($username)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Username Error</strong> Username Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";
+        }
+        if(empty($user_pass)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error</strong>  Password Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>"; 
+        }
+        
+and I check are there any user according to user input values using
+
+        if($check_user_nor > 0){
+        
+next I check the user is active user or not by using
+
+        if($check_user_row['is_active'] == 1){
+        
+if user not active it follow up content of following if condition
+
+        elseif($check_user_row['is_active'] == 0){
+        
+        
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
