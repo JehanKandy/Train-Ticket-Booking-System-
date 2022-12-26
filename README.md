@@ -127,14 +127,6 @@ and I check are there any user according to user input values using
 
         if($check_user_nor > 0){
         
-next I check the user is active user or not by using
-
-        if($check_user_row['is_active'] == 1){
-        
-if user not active it follow up content of following if condition
-
-        elseif($check_user_row['is_active'] == 0){
-       
  then I check the user is user or an admin for that i use following codelines 
  
                  if($check_user_row['user_type'] == 'user'){
