@@ -12,6 +12,8 @@
             <div class="msg-text">
                 Your account approval is still pending
             </div>
+            <a href="login.php"><button class="btn btn-primary">Back to Login</button></a>
+
         </div>
     </div>
 </div>
