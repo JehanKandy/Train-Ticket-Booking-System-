@@ -118,6 +118,25 @@
             </div>"; 
         }
 
+        if($check_user_nor > 0){
+            if($check_user_row['is_active'] == 1){
+
+            }elseif($check_user_row['is_active'] == 0){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>Password Error</strong>  Password Cannot be Empty....!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                </div>"; 
+            }
+        }else{
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>User Error</strong>  User Does not Exists....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>"; 
+        }
 
     
     }
