@@ -164,9 +164,8 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
     
   
   2. UPDATE
-  - css/style.css
-  - lib/layouts/nav_bar.php  
-  - index.php  
+
+
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
 
