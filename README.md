@@ -146,6 +146,7 @@ if user not active it follow up content of following if condition
                     header("location:../routes/user.php");
                 }
         
+in here i use `setcookie` and `$_SESSION` the meaning of `setcookie` is create a cookie for login user and it will expire after 1 hour (by `time()+60*60,'/'`)       
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
