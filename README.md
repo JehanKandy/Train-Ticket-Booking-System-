@@ -137,7 +137,6 @@ now I check the user is panding user or not for that I use following codelines
 
 if the user is pending user and header to waiting_user.php file
 
-
         
 and I check are there any user according to user input values using
 
@@ -161,6 +160,28 @@ in here i use `setcookie` and `$_SESSION` the meaning of `setcookie` is create a
  [more about cookies](https://www.w3schools.com/php/php_cookies.asp) 
  
  [more about session](https://www.w3schools.com/php/php_sessions.asp)
+ 
+ 
+ and lastly in this function i use following codelines 
+         else{
+            if($check_user_row['is_active'] == 0){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>User Error</strong>  User Deactivate....!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                </div>";  
+            }else{
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>User Error</strong>  User Does not Exists....!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                </div>";  
+            }
+        } 
+        
+for if the user is deactivated buy admin the user can get output as `User Deactivate` if there are no existing user in database user can get outupt as `User Does not Exists....!`    
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
