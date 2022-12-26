@@ -118,6 +118,8 @@
             </div>"; 
         }
 
+        $waiting_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' $$ is_active = 0 && is_pending = 1";
+
         if($check_user_nor > 0){
                 if($check_user_row['user_type'] == 'user'){
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
