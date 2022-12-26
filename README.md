@@ -206,6 +206,8 @@ in here I catch the value of following session using `waiting_user_username = st
 
 so that I use strval() for do that
 
+[more about strval](https://www.w3schools.com/php/func_var_strval.asp)
+
 <hr>
   
 <h1>Development Timelne</h1>
