@@ -200,6 +200,11 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
         echo $waiting_user_username;
     }
 
+in here I catch the value of following session using `waiting_user_username = strval($_SESSION['waitingUser']);`
+
+        $_SESSION['waitingUser'] = $waiting_user_row['username'];
+
+so that I use strval() for do that
 
 <hr>
   
