@@ -5,7 +5,7 @@
 
 <h1>Explain Functions</h1>
   <h4>25 December 2022</h4>
-       <h5><b>reg_user</b></h5>
+       <h5><b>reg_user()</b></h5>
         
 
 
@@ -87,8 +87,53 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
  <hr>
  
    <h4>25 December 2022</h4>
-       <h5><b>reg_user</b></h5>
+       <h5><b>login_user()</b></h5>
+       
+ in this function first codlines are same as reg_user() function.      
  
+     function login_user($username, $user_pass){
+        $con = Connection();
+
+        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass'";
+        $check_user_result = mysqli_query($con, $check_user);
+        $check_user_nor = mysqli_num_rows($check_user_result);
+        $check_user_row = mysqli_fetch_assoc($check_user_result);
+        
+but in last codeline i create a variable called `$check_user_row` and assign `mysqli_fetch_assoc($check_user_result);` the meaning of 'mysqli_fetch_assoc()' The fetch_assoc() / mysqli_fetch_assoc() function fetches a result row as an associative array.  
+
+and then i check the username and password is empty or not usoing following codelines
+
+
+        if(empty($username)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Username Error</strong> Username Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";
+        }
+        if(empty($user_pass)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error</strong>  Password Cannot be Empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>"; 
+        }
+        
+and I check are there any user according to user input values using
+
+        if($check_user_nor > 0){
+        
+next I check the user is active user or not by using
+
+        if($check_user_row['is_active'] == 1){
+        
+if user not active it follow up content of following if condition
+
+        elseif($check_user_row['is_active'] == 0){
+        
+        
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
