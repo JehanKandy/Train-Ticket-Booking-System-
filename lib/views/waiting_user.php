@@ -4,7 +4,9 @@
 <div class="waiting-content">
     <div class="container">
         <div class="waiting-body">
-            
+            <div class="username-text">
+                <?php ?>
+            </div>
         </div>
     </div>
 </div>
