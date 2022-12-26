@@ -260,8 +260,8 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
   <h4>26 December 2022</h4>
   
   1. DEVELOP
-  - lib/views/
-  
+  - lib/views/wating_user.php
+    
   2. UPDATE
   - lib/layouts/login.php
   - lib/function/function.php
