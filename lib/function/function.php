@@ -120,11 +120,19 @@
 
         if($check_user_nor > 0){
             if($check_user_row['is_active'] == 1){
+                if($check_user_row['user_type'] == 'user'){
 
-            }elseif($check_user_row['is_active'] == 0){
+                }
+                elseif($check_user_row['user_type'] == 'admin'){
+                    
+                }
+
+            }
+            elseif($check_user_row['is_active'] == 0){
                 header("location:wait_user.php");
             }
-        }else{
+        }
+        else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>User Error</strong>  User Does not Exists....!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
