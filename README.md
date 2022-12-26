@@ -276,3 +276,4 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
 <h1>Copyright and license</h1>
 
 Copyright 2021–2022 [JehanKandy](https://github.com/JehanKandy). <b>Train Ticket Booking System</b> released under the [MIT License](https://github.com/JehanKandy/Train-Ticket-Booking-System-/blob/main/LICENSE)
+
