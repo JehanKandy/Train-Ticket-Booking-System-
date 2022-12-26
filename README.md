@@ -157,10 +157,9 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
   
   <hr>
   
-  <h4>25 December 2022</h4>
+  <h4>26 December 2022</h4>
   
   1. DEVELOP
-
     
   
   2. UPDATE
