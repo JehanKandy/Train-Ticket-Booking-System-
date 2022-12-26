@@ -94,7 +94,7 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
      function login_user($username, $user_pass){
         $con = Connection();
 
-        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' $$ is_active = 1 && is_pending = 0";
+        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' && is_active = 1 && is_pending = 0";
         $check_user_result = mysqli_query($con, $check_user);
         $check_user_nor = mysqli_num_rows($check_user_result);
         $check_user_row = mysqli_fetch_assoc($check_user_result);
@@ -126,7 +126,7 @@ and then i check the username and password is empty or not usoing following code
         
 now I check the user is panding user or not for that I use following codelines
 
-        $waiting_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' $$ is_active = 0 && is_pending = 1";
+        $waiting_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' && is_active = 0 && is_pending = 1";
         $waiting_user_result = mysqli_query($con, $waiting_user);
         $waiting_user_nor = mysqli_num_rows($waiting_user_result);
 
