@@ -157,6 +157,9 @@
         }    
     }
 
+    function waiting_user(){
+        $con = Connection();
+    }
 
 
 
