@@ -846,6 +846,16 @@ td {
     padding-bottom: 70px;
 }
 
+.waiting-content .waiting-body {
+    background-color: white;
+    color: #2c3e50;
+    padding: 70px 40px 10px 40px;
+    width: 500px;
+    margin-left: 300px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
 
 /* 
     ***************************************************************************************
