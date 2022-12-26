@@ -5,6 +5,15 @@
     <div class="body">
         <div class="title">Login Here</div>
         <hr class="login-hr">
+        <?php
+        include("../function/function.php");
+
+        if(isset($_POST['login'])){
+            $result = login_user($_POST['username'], md5($_POST['password']));
+            echo $result;
+        }
+        
+        ?>
         <form action="<?php echo($_SERVER['PHP_SELF']);?>" method="POST">
             <div class="content-body">
                 <p class="input-text">Username :</p>
