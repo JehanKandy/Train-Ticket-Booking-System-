@@ -189,7 +189,8 @@ for if the user is deactivated buy admin the user can get output as `User Deacti
 <hr>  
   
 <h5><b>waiting_user()</b></h5>
-
+  
+ in order to this function I want to print user who is not active user and that user must be a pending user, for that i use following codeline to do that 
 
 <hr>
   
