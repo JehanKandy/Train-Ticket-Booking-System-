@@ -122,6 +122,10 @@
         $waiting_user_result = mysqli_query($con, $waiting_user);
         $waiting_user_nor = mysqli_num_rows($waiting_user_result);
 
+        if($waiting_user_nor > 0){
+            header("location:waiting_user.php");
+        }
+
         if($check_user_nor > 0){
                 if($check_user_row['user_type'] == 'user'){
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
