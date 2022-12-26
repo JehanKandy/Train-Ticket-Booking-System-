@@ -99,7 +99,7 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
         $check_user_nor = mysqli_num_rows($check_user_result);
         $check_user_row = mysqli_fetch_assoc($check_user_result);
         
-but in last codeline i create a variable called `$check_user_row` and assign `mysqli_fetch_assoc($check_user_result);`     
+but in last codeline i create a variable called `$check_user_row` and assign `mysqli_fetch_assoc($check_user_result);` the meaning of 'mysqli_fetch_assoc()' The fetch_assoc() / mysqli_fetch_assoc() function fetches a result row as an associative array.     
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
