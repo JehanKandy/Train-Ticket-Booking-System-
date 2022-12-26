@@ -854,6 +854,7 @@ td {
     margin-left: 300px;
     border-radius: 8px;
     border: 2px solid white;
+    text-align: center;
 }
 
 .waiting-content .waiting-body .username-text {
