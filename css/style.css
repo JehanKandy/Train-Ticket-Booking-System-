@@ -890,16 +890,19 @@ td {
     color: #2c3e50;
     padding: 70px 40px 10px 40px;
     width: 500px;
-    margin-left: 300px;
+    margin-left: 590px;
     border-radius: 8px;
     border: 2px solid white;
-    text-align: center;
     font-family: 'Rubik', sans-serif;
-    font-size: 30px;
 }
 
 .fpass-check-content .title {
     font-size: 30px;
+    text-align: center;
+}
+
+.fpass-check-content .body {
+    padding: 20px 20px 10px 20px;
 }
 
 
