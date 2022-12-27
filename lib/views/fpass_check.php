@@ -8,6 +8,9 @@
             <div class="title">
                 Forget Password
             </div>
+            <div class="body">
+                
+            </div>
         </div>
     </div>
 </div>
