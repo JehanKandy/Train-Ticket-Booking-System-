@@ -299,7 +299,7 @@ so that I use strval() for do that
   1. DEVELOP
     
   2. UPDATE
-  - lib/
+  - lib/views/
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
