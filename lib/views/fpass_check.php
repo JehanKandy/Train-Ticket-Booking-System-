@@ -10,7 +10,9 @@
             </div>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-            
+                    <p class="input-text">Username : </p>
+
+                    <p class="input-text">Email : </p>
                 </form>
             </div>
         </div>
