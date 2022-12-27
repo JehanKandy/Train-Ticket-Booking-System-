@@ -297,7 +297,6 @@ so that I use strval() for do that
   <h4>26 December 2022</h4>
   
   1. DEVELOP
-  - lib/views/waiting_user.php
     
   2. UPDATE
 
