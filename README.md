@@ -297,7 +297,7 @@ so that I use strval() for do that
   <h4>27 December 2022</h4>
   
   1. DEVELOP
-  - lib/views/
+  - lib/views/fpass_check.php
   2. UPDATE
   - lib/views/login.php
 
