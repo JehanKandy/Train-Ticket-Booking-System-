@@ -6,12 +6,12 @@
         <div class="title">Login Here</div>
         <hr class="login-hr">
         <?php
-        include("../function/function.php");
+            include("../function/function.php");
 
-        if(isset($_POST['login'])){
-            $result = login_user($_POST['username'], md5($_POST['password']));
-            echo $result;
-        }
+            if(isset($_POST['login'])){
+                $result = login_user($_POST['username'], md5($_POST['password']));
+                echo $result;
+            }
         
         ?>
         <form action="<?php echo($_SERVER['PHP_SELF']);?>" method="POST">
@@ -26,7 +26,7 @@
         </form>
 
         <hr class="login-hr">
-        <a href="" style="color: rgb(216, 55, 216); text-decoration: none;">forget Password</a><br>
+        <a href="fpass_check.php" style="color: rgb(216, 55, 216); text-decoration: none;">forget Password</a><br>
         Don't Have an Account ? <a href="reg.php" style="color: rgb(216, 55, 216); text-decoration: none;">Create One</a>
 
         <div class="develop-by"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
