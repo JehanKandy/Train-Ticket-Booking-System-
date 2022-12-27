@@ -300,6 +300,7 @@ so that I use strval() for do that
   - lib/views/fpass_check.php
   2. UPDATE
   - lib/views/login.php
+  - css/
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
