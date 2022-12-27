@@ -1316,4 +1316,7 @@ td {
         border: 2px solid white;
         font-family: 'Rubik', sans-serif;
     }
+    .fpass-check-content .body {
+        padding: 10px 10px 5px 10px;
+    }
 }
