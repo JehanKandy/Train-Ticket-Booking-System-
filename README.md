@@ -290,6 +290,20 @@ so that I use strval() for do that
   - lib/layouts/login.php
   - lib/function/function.php
   - - functions login_user()
+  
+  
+  <hr>
+  
+  <h4>26 December 2022</h4>
+  
+  1. DEVELOP
+  - lib/views/waiting_user.php
+    
+  2. UPDATE
+  - css/style.css
+  - lib/layouts/login.php
+  - lib/function/function.php
+  - - functions login_user()
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
