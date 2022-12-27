@@ -14,6 +14,8 @@
                     <input type="text" name="username" id="fUser" class="input-feild" placeholder="Username"><br><br>
                     <p class="input-text">Email : </p>
                     <input type="email" name="email" id="fEmail" class="input-feild" placeholder="Email"><br><br>
+
+                    <input type="submit" value="Get OTP" name="otp" class="login-btn">
                 </form>
             </div>
         </div>
