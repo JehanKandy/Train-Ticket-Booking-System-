@@ -311,7 +311,7 @@ so that I use strval() for do that
   2. UPDATE
   - lib/views/fpass_check.php
   - lib/function/function.php
-  - - functions login_user()
+  - - functions check_otp_user()
   
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
