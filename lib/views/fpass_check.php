@@ -8,6 +8,7 @@
             <div class="title">
                 Forget Password
             </div>
+            <hr>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <p class="input-text">Username : </p>
@@ -16,8 +17,12 @@
                     <input type="email" name="email" id="fEmail" class="input-feild" placeholder="Email"><br><br>
 
                     <input type="submit" value="Get OTP" name="otp" class="login-btn">
+
+                    
                 </form>
             </div>
+            <hr>
+            <div class="develop-by-reg"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
         </div>
     </div>
 </div>
