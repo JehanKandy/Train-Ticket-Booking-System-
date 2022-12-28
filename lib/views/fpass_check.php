@@ -9,6 +9,13 @@
                 Forget Password
             </div>
             <hr>
+
+            <?php 
+                include("../function/config.php");
+                if(isset($_POST['otp'])){
+                    $result = 
+                }
+            ?>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <p class="input-text">Username : </p>
