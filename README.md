@@ -302,6 +302,16 @@ so that I use strval() for do that
   - lib/views/login.php
   - css/style.css
 
+  <hr>
+  
+  <h4>27 December 2022</h4>
+  
+  1. DEVELOP
+  - lib/views/fpass_check.php
+  2. UPDATE
+  - lib/views/login.php
+  - css/style.css
+
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
