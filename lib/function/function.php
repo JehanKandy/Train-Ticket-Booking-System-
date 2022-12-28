@@ -170,7 +170,9 @@
         echo $waiting_user_username;
     }
 
-
+    function check_otp_user($username, $email){
+        $con = Connection();
+    }
 
 
 ?>
