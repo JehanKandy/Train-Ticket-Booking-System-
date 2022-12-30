@@ -914,6 +914,12 @@ td {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.check-otp-content{
+    margin: 150px 100px 150px 100px;
+    background-color: white;
+    color: #2c3e50;
+    
+}
 
 /* 
     ***************************************************************************************
