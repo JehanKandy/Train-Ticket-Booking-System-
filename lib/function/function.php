@@ -195,6 +195,18 @@
         $chech_user_nor = mysqli_num_rows($chech_user_result);
 
         if($chech_user_nor > 0){
+            $otp = rand(10000,99999);
+
+            $receiver = $email;
+            $subject = "Reset Password..!";
+            $body = "OTP For Resent Password /n GYM Workout /n/n OTP is ".$otp;
+            $sender = "From:jehankandy@gmail.com";
+
+            if(mail($receiver,$subject,$body,$sender)){
+                echo "Send";
+            }else{
+                echo "not";
+            }
 
         }else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
