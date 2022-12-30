@@ -287,6 +287,8 @@
         $check_otp_row = mysqli_fetch_assoc($check_otp_result);
         $check_opt__nor = mysqli_num_rows($check_otp_result);
 
+
+
         if($check_opt__nor > 0){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                         <strong>OTP Error</strong>  Check Your OTP...!
