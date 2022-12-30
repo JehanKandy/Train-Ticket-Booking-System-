@@ -939,8 +939,13 @@ td {
     border: 1px solid rgb(216, 55, 216);
     color: rgb(216, 55, 216);
     border-radius: 5px;
+    transition: 0.5s;    
 }
-
+.check-otp-content .body .otp-verify-btn:hover{
+    background-color: rgb(216, 55, 216);
+    cursor: pointer;
+    color: white;
+}
 /* 
     ***************************************************************************************
 
