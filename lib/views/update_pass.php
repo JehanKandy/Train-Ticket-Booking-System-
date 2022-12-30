@@ -10,7 +10,7 @@
 
 <div class="train-reg-content">
     <div class="body">
-        <div class="title">Register Here</div>
+        <div class="title">Update Password</div>
         <hr>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
                 <div class="reg-content">
