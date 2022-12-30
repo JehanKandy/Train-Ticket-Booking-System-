@@ -197,7 +197,22 @@
         $check_user_row = mysqli_fetch_assoc($check_user_otp_result);
 
         if($check_user_row > 0){
-            if($username != )
+            if($username != $check_user_otp_row['username']){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>Username Error : </strong> &nbsp; Username does not exist...!
+                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                            <span aria-hidden='true'>&times;</span>
+                            </button>
+                    </div>"; 
+            }
+            if($username != $check_user_otp_row['email_user']){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>Username Error : </strong> &nbsp; Username does not exist...!
+                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                            <span aria-hidden='true'>&times;</span>
+                            </button>
+                    </div>"; 
+            }
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
