@@ -232,7 +232,10 @@ so that I use strval() for do that
 
                 if(mail($receiver,$subject,$body,$sender)){
                 
-   in here i use inbuild function in php called mail()
+   in here i use inbuild function in php called `mail()`
+   
+   becasue, I want to send password reset OTP to user registaion email address.
+   
        
 <hr>
   
