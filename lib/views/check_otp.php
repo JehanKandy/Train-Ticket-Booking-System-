@@ -8,6 +8,19 @@
     }
 ?>
 
+<div class="check-otp">
+    <div class="body">
+        <div class="check-otp-content">
+            <div class="title">
+                Enter OTP
+            </div>
+            <div class="body">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
