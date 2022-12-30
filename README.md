@@ -246,7 +246,11 @@ so that I use strval() for do that
    
    [XAMPP configuration Part 2](https://github.com/JehanKandy/XAMPP-configuration-Part-2)
    
-       
+   in above function i create variable called `otp_num` and assign `rand(10000,99999)` value to this variable.
+   inoder to this variable value,
+   I want to get on of number between 10000 and 99999 as OTP so that i use inbuild function called `rand()` for get random number between 10000 and 99999
+   
+   
 <hr>
   
 <h1>Development Timelne</h1>
