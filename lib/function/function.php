@@ -189,6 +189,8 @@
                     </button>
             </div>";  
         }
+
+        $chech_user = "SELECT * FROM user_tbl WHERE username  = '$username' && email_user = '$email'";
     }
 
 
