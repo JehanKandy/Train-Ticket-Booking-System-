@@ -2,6 +2,12 @@
 <link rel="stylesheet" href="../../css/style.css">
 <?php include("../function/function.php"); ?>
 
+<?php 
+    if(empty($_SESSION['resetPass'])){
+        header("location:login.php");
+    }
+?>
+
 
 
 
