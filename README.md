@@ -220,6 +220,27 @@ so that I use strval() for do that
         $con = Connection();
     
    and other functionalities are same as other functionalities as i mention above 
+   
+   and this fuction I mention as following 
+   
+                $otp_num = rand(10000,99999);
+
+                $receiver = $email;
+                $subject = "Resent Password..!";
+                $body = "OTP For Resent Password /n GYM Workout /n/n OTP is ".$otp_num;
+                $sender = "From:jehankandy@gmail.com";
+
+                if(mail($receiver,$subject,$body,$sender)){
+                
+   in here i use inbuild function in php called `mail()`
+   
+   becasue, I want to send password reset OTP to user registaion email address.
+   
+   if this function not working in your project, becase there are some configaration in `xampp` server
+   and the configarations are in following link,
+   
+   
+   
        
 <hr>
   
