@@ -286,6 +286,8 @@ so that I use strval() for do that
         
 if the both OTP numbers are currect the user rederect to the `update_pass.php` for update the user's password   
 
+[more about md5()](https://www.w3schools.com/php/func_string_md5.asp)
+
 <hr>
 
   
