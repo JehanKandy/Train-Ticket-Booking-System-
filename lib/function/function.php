@@ -269,6 +269,8 @@
     function check_otp($otp_no){
         $con = Connection();
 
+        $otp_email = strval($_SESSION['resetPass']);
+
         if(empty($otp_no)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>OTP Error</strong>  OTP Cannot be Empty...!
@@ -278,6 +280,9 @@
                 </div>";  
         }
 
+        $pass_otp = md5($otp_no);
+
+        $check_otp = "SELECT * FROM pass_reset_tbl WHERE email = '$otp_email' && otp_no ='$pass_otp'";
         
     }
 
