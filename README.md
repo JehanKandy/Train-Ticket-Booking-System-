@@ -239,7 +239,11 @@ so that I use strval() for do that
    if this function not working in your project, becase there are some configaration in `xampp` server
    and the configarations are in following link,
    
+   [XAMPP configuration Part 2](https://github.com/JehanKandy/XAMPP-configuration-Part-2)
    
+   and
+   
+   [XAMPP configuration Part 1](Xhttps://github.com/JehanKandy/Xampp-Configurations)
    
        
 <hr>
