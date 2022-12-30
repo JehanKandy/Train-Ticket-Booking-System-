@@ -16,7 +16,8 @@
                 </div>
                 <?php 
                     if(isset($_POST['otp_verify'])){
-                        $result = 
+                        $result = check_otp($_POST['otp_no']);
+                        echo $result;
                     }
                 ?>
                 <div class="body">
