@@ -86,7 +86,7 @@ and the i again create variable called `$chech_user_nor` and assign `mysqli_num_
  
  <hr>
  
-   <h4>25 December 2022</h4>
+   <h4>26 December 2022</h4>
        <h5><b>login_user()</b></h5>
        
  in this function first codlines are same as reg_user() function.      
@@ -208,6 +208,11 @@ so that I use strval() for do that
 
 [more about strval](https://www.w3schools.com/php/func_var_strval.asp)
 
+<hr>
+
+   <h4>25 December 2022</h4>
+       <h5><b>login_user()</b></h5>
+       
 <hr>
   
 <h1>Development Timelne</h1>
