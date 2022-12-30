@@ -72,7 +72,7 @@
             </div>"; 
             }
             else{
-                $insert_user = "INSERT INTO user_tbl(username,email_user,user_pass,user_type,is_active,join_date)VALUES('$username','$email','$pass','user',0,NOW())";
+                $insert_user = "INSERT INTO user_tbl(username,email_user,user_pass,user_type,is_pending,is_active,join_date)VALUES('$username','$email','$pass','user',1,0,NOW())";
                 $insert_user_result = mysqli_query($con, $insert_user);
 
                 if(!$insert_user_result){
@@ -192,7 +192,7 @@
         }
 
 
-        $check_user_otp = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
+        $check_user_otp = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email' && is_pending = 0 && is_active = 1";
         $check_user_otp_result = mysqli_query($con, $check_user_otp);
         $check_user_otp_row = mysqli_fetch_assoc($check_user_otp_result);
         $check_user_row = mysqli_fetch_assoc($check_user_otp_result);
@@ -213,11 +213,10 @@
                             <span aria-hidden='true'>&times;</span>
                             </button>
                         </div>"; 
-                }
+            }
             
             else{
                 echo "hi";
-
             }
         }
         
