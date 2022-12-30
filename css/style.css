@@ -918,7 +918,7 @@ td {
     margin: 150px 200px 150px 200px;
     background-color: white;
     color: #2c3e50;
-    padding: 50px;
+    padding: 50px 50px 5px 50px;
     border-radius: 5px;
     border: none;
     font-family: 'Rubik', sans-serif;
@@ -942,6 +942,21 @@ td {
     transition: 0.5s;    
 }
 .check-otp-content .body .otp-verify-btn:hover{
+    background-color: rgb(216, 55, 216);
+    cursor: pointer;
+    color: white;
+}
+.new-pass-btn{
+    width: 100%;
+    margin-top: 30px;
+    height: 45px;
+    background: none;
+    border: 1px solid rgb(216, 55, 216);
+    color: rgb(216, 55, 216);
+    border-radius: 5px;
+    transition: 0.5s;  
+}
+.new-pass-btn:hover{
     background-color: rgb(216, 55, 216);
     cursor: pointer;
     color: white;
