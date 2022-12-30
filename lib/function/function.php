@@ -194,6 +194,17 @@
         $chech_user_result = mysqli_query($con, $chech_user);
         $chech_user_nor = mysqli_num_rows($chech_user_result);
 
+        if($chech_user_nor > 0){
+
+        }else{
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>User Error</strong>  User Does not Exists....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";  
+        }
+
     }
 
 
