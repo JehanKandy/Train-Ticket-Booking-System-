@@ -927,7 +927,9 @@ td {
 .check-otp-content .title{
     font-size: 30px;
     text-align: center;
-
+}
+.check-otp-content .body{
+    padding: 10px 30px 10px 30px;
 }
 
 /* 
