@@ -250,6 +250,8 @@ so that I use strval() for do that
    inoder to this variable value,
    I want to get on of number between 10000 and 99999 as OTP so that i use inbuild function called `rand()` for get random number between 10000 and 99999
    
+   and then I hash that random number for store in database
+   
    
 <hr>
   
