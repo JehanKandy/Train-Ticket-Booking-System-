@@ -320,6 +320,7 @@ so that I use strval() for do that
   1. DEVELOP
 
   2. UPDATE
+  - lib/function/function.php
 
     
 <h1>Developers</h1>
