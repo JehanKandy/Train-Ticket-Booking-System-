@@ -12,11 +12,14 @@
     <div class="body">
         <div class="check-otp-content">
             <div class="title">
-                Enter OTP
+                OTP Verify
             </div>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-                    
+                    Enter OTP :
+                    <input type="number" name="otp_no" id="otpV" class="input-feild" placeholder="OTP">
+
+                    <input type="submit" value="Verify OTP" name="otp_verify" class="otp-verify-btn">
                 </form>
             </div>
         </div>
