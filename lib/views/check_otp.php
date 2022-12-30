@@ -9,7 +9,6 @@
 ?>
 
 <div class="check-otp">
-    <div class="body">
         <div class="container">
             <div class="check-otp-content">
                 <div class="title">
@@ -25,7 +24,7 @@
                 </div>
             </div>
         </div>
-    </div>
+
 </div>
 
 
