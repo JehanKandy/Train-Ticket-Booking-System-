@@ -303,6 +303,9 @@
                             </button>
                         </div>";  
             }
+            else{
+                header("location:update_pass.php");
+            }
         }
         
     }
