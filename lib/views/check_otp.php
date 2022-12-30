@@ -22,7 +22,7 @@
                         <input type="submit" value="Verify OTP" name="otp_verify" class="otp-verify-btn">
                     </form>
                 </div>
-                <div class="design-by">JehanKandy</div>
+                <div class="develop-by-reg"><i class="far fa-copyright"></i>&nbsp; JehanKandy</div>
             </div>
         </div>
 
