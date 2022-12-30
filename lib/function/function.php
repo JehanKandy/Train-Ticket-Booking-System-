@@ -195,9 +195,9 @@
         $check_user_otp = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email' && is_pending = 0 && is_active = 1";
         $check_user_otp_result = mysqli_query($con, $check_user_otp);
         $check_user_otp_row = mysqli_fetch_assoc($check_user_otp_result);
-        $check_user_row = mysqli_fetch_assoc($check_user_otp_result);
+        $check_user_otp_nor = mysqli_num_rows($check_user_otp_result);
 
-        if($check_user_row > 0){
+        if($check_user_otp_nor > 0){
             if($username != $check_user_otp_row['username']){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                             <strong>Username Error : </strong> &nbsp; Username does not exist...!
@@ -206,7 +206,7 @@
                             </button>
                         </div>"; 
                 }
-            if($username != $check_user_otp_row['email_user']){
+            if($email != $check_user_otp_row['email_user']){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                             <strong>Username Error : </strong> &nbsp; Username does not exist...!
                             <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
@@ -218,8 +218,7 @@
             else{
                 echo "hi";
             }
-        }
-        
+        }        
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                 <strong>User Error</strong>  User Does not Exists....!
