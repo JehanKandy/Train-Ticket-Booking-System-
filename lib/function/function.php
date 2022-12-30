@@ -237,8 +237,9 @@
                             <span aria-hidden='true'>&times;</span>
                             </button>
                         </div>"; 
-                    }else{
-
+                    }else{  
+                        $insert_otp = "INSERT INTO pass_reset_tbl(username,email,otp_no,update_date)VALUES('$username','$email','$otp_num',NOW())";
+                        $insert_otp_result = mysqli_query($con, $insert_otp);
                     }
                 
 
