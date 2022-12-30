@@ -220,6 +220,19 @@ so that I use strval() for do that
         $con = Connection();
     
    and other functionalities are same as other functionalities as i mention above 
+   
+   and this fuction I mention as following 
+   
+                $otp_num = rand(10000,99999);
+
+                $receiver = $email;
+                $subject = "Resent Password..!";
+                $body = "OTP For Resent Password /n GYM Workout /n/n OTP is ".$otp_num;
+                $sender = "From:jehankandy@gmail.com";
+
+                if(mail($receiver,$subject,$body,$sender)){
+                
+   in here i use inbuild function in php called mail()
        
 <hr>
   
