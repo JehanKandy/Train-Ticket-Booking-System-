@@ -196,7 +196,19 @@
         $check_user_row = mysqli_fetch_assoc($check_user_otp_result);
 
         if($check_user_row > 0){
+            $otp_no = rand(10000,99999);
 
+            
+            $receiver = $email;
+            $subject = "Resent Password..!";
+            $body = "OTP For Resent Password /n GYM Workout /n/n OTP is ".$otp_no;
+            $sender = "From:jehankandy@gmail.com";
+
+            if(mail($receiver,$subject,$body,$sender)){
+                echo "Send";
+            }else{
+                echo "not";
+            }
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
