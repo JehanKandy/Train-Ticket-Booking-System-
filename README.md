@@ -400,7 +400,7 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
   
   1. DEVELOP
   - lib/views/check_otp.php
-  - lib/
+  - lib/views/
   2. UPDATE
   - css/style.css
   - lib/views/fpass_check.php
