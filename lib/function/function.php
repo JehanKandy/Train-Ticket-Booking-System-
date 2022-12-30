@@ -283,6 +283,9 @@
         $pass_otp = md5($otp_no);
 
         $check_otp = "SELECT * FROM pass_reset_tbl WHERE email = '$otp_email' && otp_no ='$pass_otp'";
+        $check_otp_result = mysqli_query($con, $chech_otp);
+        $check_otp_row = mysqli_fetch_assoc($check_otp_result);
+        $check_opt__nor = mysqli_num_rows($check_otp_result);
         
     }
 
