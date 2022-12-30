@@ -11,9 +11,10 @@
             <hr>
 
             <?php 
-                include("../function/config.php");
+
                 if(isset($_POST['otp'])){
-                    $result = 
+                    $result = check_otp_user($_POST['username'], $_POST['email']);
+                    echo $result;
                 }
             ?>
             <div class="body">
