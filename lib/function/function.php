@@ -193,10 +193,11 @@
 
         $check_user_otp = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
         $check_user_otp_result = mysqli_query($con, $check_user_otp);
+        $check_user_otp_row = mysqli_fetch_assoc($check_user_otp_result);
         $check_user_row = mysqli_fetch_assoc($check_user_otp_result);
 
         if($check_user_row > 0){
-            
+            if($username != )
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
