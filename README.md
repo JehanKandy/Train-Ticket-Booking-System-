@@ -240,8 +240,8 @@ so that I use strval() for do that
    and the configarations are in following link,
    
    
-   [XAMPP configuration Part 1](Xhttps://github.com/JehanKandy/Xampp-Configurations)
-   
+   [XAMPP configuration Part 1](https://github.com/JehanKandy/Xampp-Configurations)
+
    and   
    
    [XAMPP configuration Part 2](https://github.com/JehanKandy/XAMPP-configuration-Part-2)
