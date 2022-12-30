@@ -1,7 +1,8 @@
 <?php 
     include("config.php");
-
     use FTP\Connection;
+
+
 
     session_start();
 
@@ -190,33 +191,21 @@
             </div>";  
         }
 
-        $chech_user = "SELECT * FROM user_tbl WHERE username  = '$username' && email_user = '$email'";
-        $chech_user_result = mysqli_query($con, $chech_user);
-        $chech_user_nor = mysqli_num_rows($chech_user_result);
+        $check_user_otp = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
+        $check_user_otp_result = mysqli_query($con, $check_user_otp);
+        $check_user_row = mysqli_fetch_assoc($check_user_otp_result);
 
-        if($chech_user_nor > 0){
-            $otp = rand(10000,99999);
+        if($check_user_row > 0){
 
-            $receiver = $email;
-            $subject = "Reset Password..!";
-            $body = "OTP For Resent Password /n GYM Workout /n/n OTP is ".$otp;
-            $sender = "From:jehankandy@gmail.com";
-
-            if(mail($receiver,$subject,$body,$sender)){
-                echo "Send";
-            }else{
-                echo "not";
-            }
-
-        }else{
-            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                    <strong>User Error</strong>  User Does not Exists....!
-                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                    <span aria-hidden='true'>&times;</span>
-                    </button>
-            </div>";  
         }
-
+        else{
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                <strong>User Error</strong>  User Does not Exists....!
+                <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+                </button>
+        </div>";  
+        }
     }
 
 
