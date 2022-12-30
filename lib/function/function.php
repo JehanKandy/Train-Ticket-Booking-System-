@@ -283,9 +283,22 @@
         $pass_otp = md5($otp_no);
 
         $check_otp = "SELECT * FROM pass_reset_tbl WHERE email = '$otp_email' && otp_no ='$pass_otp'";
-        $check_otp_result = mysqli_query($con, $chech_otp);
+        $check_otp_result = mysqli_query($con, $check_otp);
         $check_otp_row = mysqli_fetch_assoc($check_otp_result);
         $check_opt__nor = mysqli_num_rows($check_otp_result);
+
+        if($check_opt__nor > 0){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>OTP Error</strong>  Check Your OTP...!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                    </div>";  
+        }else{
+            if($pass_otp != $check_otp_row['otp_no ']){
+                
+            }
+        }
         
     }
 
