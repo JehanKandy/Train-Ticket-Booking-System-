@@ -213,7 +213,7 @@ so that I use strval() for do that
    <h4>25 December 2022</h4>
        <h5><b>check_otp_user($username, $email)</b></h5>
        
-       
+   in this function i used for password reset (forget Password) function.
        
        
 <hr>
