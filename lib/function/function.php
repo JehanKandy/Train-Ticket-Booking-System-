@@ -224,7 +224,24 @@
                 $sender = "From:jehankandy@gmail.com";
 
                 if(mail($receiver,$subject,$body,$sender)){
-                    echo "Send";
+                    
+                    $check_opt_db = "SELECT * FROM 	pass_reset_tbl WHERE username ='$username' && email ='$email'";
+                    $check_opt_db_result = mysqli_query($con, $check_opt_db);
+                    $check_opt_db_row = mysqli_fetch_assoc($check_opt_db_result);
+                    $check_opt_db_nor = mysqli_num_rows($check_opt_db_result);
+
+                    if($check_opt_db_nor > 0){
+                        return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>Processing Error : </strong> &nbsp; Cannot Process the task...!
+                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                            <span aria-hidden='true'>&times;</span>
+                            </button>
+                        </div>"; 
+                    }else{
+
+                    }
+                
+
                 }else{
                     echo "not";
                 }
