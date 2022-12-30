@@ -254,7 +254,7 @@ so that I use strval() for do that
    
    
 <hr>
-       <h5><b>check_otp_user($username, $email)</b></h5>
+       <h5><b>check_otp($otp_no)</b></h5>
        
 <hr>
 
