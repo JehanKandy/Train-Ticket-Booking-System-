@@ -241,14 +241,13 @@
                             </button>
                         </div>"; 
                     }else{  
-                        $insert_otp = "INSERT INTO pass_reset_tbl(username,email,otp_no,update_date)VALUES('$username','$email','$otp_num',NOW())";
+                        $insert_otp = "INSERT INTO pass_reset_tbl(username,email,otp_no,update_date)VALUES('$username','$email',md5($otp_num),NOW())";
                         $insert_otp_result = mysqli_query($con, $insert_otp);
 
                         setcookie('ResetPass',$check_user_otp_row['email_user'],time()+60*2,'/');
                         $_SESSION['resetPass'] = $check_user_otp_row['email_user'];
                         header("location:check_otp.php");
-                    }
-                
+                    }                
 
                 }else{
                     echo "not";
