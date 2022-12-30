@@ -191,6 +191,7 @@
             </div>";  
         }
 
+
         $check_user_otp = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
         $check_user_otp_result = mysqli_query($con, $check_user_otp);
         $check_user_otp_row = mysqli_fetch_assoc($check_user_otp_result);
@@ -203,41 +204,32 @@
                             <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                             <span aria-hidden='true'>&times;</span>
                             </button>
-                    </div>"; 
-            }
+                        </div>"; 
+                }
             if($username != $check_user_otp_row['email_user']){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                             <strong>Username Error : </strong> &nbsp; Username does not exist...!
                             <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                             <span aria-hidden='true'>&times;</span>
                             </button>
-                    </div>"; 
-            }
-            else{
-                $check_user_reset_pass = "SELECT * FROM pass_reset_tbl WHERE username ='$username' && email = '$email'";
-                $check_user_reset_pass_result = mysqli_query($con, $check_user_reset_pass);
-                $check_user_reset_pass_row = mysqli_fetch_assoc($check_user_reset_pass_result);
-                $check_user_reset_pass_nor = mysqli_num_rows($check_user_reset_pass_result);
-
-                if($check_user_reset_pass_nor > 0){
-                    return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                            <strong>Processing Error : </strong> &nbsp; Cannot Process the task...!
-                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                            <span aria-hidden='true'>&times;</span>
-                            </button>
-                        </div>";
+                        </div>"; 
                 }
+            
+            else{
+                echo "hi";
+
             }
         }
+        
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                 <strong>User Error</strong>  User Does not Exists....!
                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                 <span aria-hidden='true'>&times;</span>
                 </button>
-        </div>";  
+            </div>";  
         }
+    
     }
-
 
 ?>
