@@ -320,6 +320,7 @@ so that I use strval() for do that
   1. DEVELOP
   - lib/views/check_otp.php
   2. UPDATE
+  - css/style.css
   - lib/views/fpass_check.php
   - lib/function/function.php
   - - functions check_otp_user()
