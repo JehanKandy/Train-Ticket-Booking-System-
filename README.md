@@ -214,6 +214,7 @@ so that I use strval() for do that
        <h5><b>check_otp_user($username, $email)</b></h5>
        
    in this function i used for password reset (forget Password) function.
+   and first code lines I mention 2 retun values in this fucntion as username and email, so that i catch the username and password that user enter in the form
        
        
 <hr>
