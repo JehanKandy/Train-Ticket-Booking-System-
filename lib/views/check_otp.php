@@ -20,8 +20,7 @@
                         echo $result;
                     }
                 ?>
-                <div class="body">
-        
+                <div class="body">      
 
                     <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                         <p> Enter OTP : </p> 
