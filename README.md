@@ -236,6 +236,11 @@ so that I use strval() for do that
    
    becasue, I want to send password reset OTP to user registaion email address.
    
+   if this function not working in your project, becase there are some configaration in `xampp` server
+   and the configarations are in following link,
+   
+   
+   
        
 <hr>
   
