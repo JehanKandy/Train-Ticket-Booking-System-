@@ -213,6 +213,21 @@
                             </button>
                     </div>"; 
             }
+            else{
+                $check_user_reset_pass = "SELECT * FROM pass_reset_tbl WHERE username ='$username' && email = '$email'";
+                $check_user_reset_pass_result = mysqli_query($con, $check_user_reset_pass);
+                $check_user_reset_pass_row = mysqli_fetch_assoc($check_user_reset_pass_result);
+                $check_user_reset_pass_nor = mysqli_num_rows($check_user_reset_pass_result);
+
+                if($check_user_reset_pass_nor > 0){
+                    return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>Processing Error : </strong> &nbsp; Cannot Process the task...!
+                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                            <span aria-hidden='true'>&times;</span>
+                            </button>
+                        </div>";
+                }
+            }
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
