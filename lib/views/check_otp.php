@@ -1,5 +1,7 @@
 <?php include("../layouts/header.php"); ?>
 <link rel="stylesheet" href="../../css/style.css">
+<?php include("../function/function.php"); ?>
+
 
 
 
