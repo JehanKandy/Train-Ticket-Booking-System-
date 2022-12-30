@@ -220,6 +220,7 @@
             
             else{
                 $otp_num = rand(10000,99999);
+                $pass_otp = md5($otp_num);
 
                 $receiver = $email;
                 $subject = "Resent Password..!";
@@ -241,7 +242,7 @@
                             </button>
                         </div>"; 
                     }else{  
-                        $insert_otp = "INSERT INTO pass_reset_tbl(username,email,otp_no,update_date)VALUES('$username','$email',md5($otp_num),NOW())";
+                        $insert_otp = "INSERT INTO pass_reset_tbl(username,email,otp_no,update_date)VALUES('$username','$email','$pass_otp',NOW())";
                         $insert_otp_result = mysqli_query($con, $insert_otp);
 
                         setcookie('ResetPass',$check_user_otp_row['email_user'],time()+60*2,'/');
