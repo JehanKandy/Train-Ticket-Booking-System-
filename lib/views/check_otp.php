@@ -16,7 +16,7 @@
                 </div>
                 <div class="body">
                     <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-                        Enter OTP :
+                        <p> Enter OTP : </p> 
                         <input type="number" name="otp_no" id="otpV" class="input-feild" placeholder="OTP">
 
                         <input type="submit" value="Verify OTP" name="otp_verify" class="otp-verify-btn">
