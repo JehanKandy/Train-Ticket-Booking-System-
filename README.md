@@ -254,6 +254,10 @@ so that I use strval() for do that
    
    
 <hr>
+       <h5><b>check_otp_user($username, $email)</b></h5>
+       
+<hr>
+
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
