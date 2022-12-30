@@ -254,8 +254,37 @@ so that I use strval() for do that
    
    
 <hr>
-       <h5><b>check_otp_user($username, $email)</b></h5>
+       <h5><b>check_otp($otp_no)</b></h5>
        
+    in this function i check the user entered OTP number with database stored OTP number. For that I hash user enterd OTP because when user request an OTP it will autometicaly hash and store in database. 
+    
+    and the I chack user entered OTP and the currect OTP
+    for that I use following codeline to do that
+    
+        if($check_opt_nor == 0){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>OTP Error</strong>  Check Your OTP...!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        </button>
+                    </div>";  
+        }else{
+            if($otp_no != $check_otp_row['otp_no']){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>OTP Error</strong>  Invalid OTP Number..!
+                            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                            <span aria-hidden='true'>&times;</span>
+                            </button>
+                        </div>";  
+            }
+            else{
+                header("location:update_pass.php");
+            }
+        }
+        
+        
+        
+if the both OTP numbers are currect the user rederect to the `update_pass.php` for update the user's password        
 <hr>
 
   
