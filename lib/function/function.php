@@ -3,6 +3,7 @@
     use FTP\Connection;
 
 
+
     session_start();
 
 
@@ -262,6 +263,10 @@
             </div>";  
         }
     
+    }
+
+    function check_otp($otp_no){
+        $con = Connection();
     }
 
 
