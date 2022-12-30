@@ -172,6 +172,23 @@
 
     function check_otp_user($username, $email){
         $con = Connection();
+
+        if(empty($username)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Username Error</strong>  Username Cannot be empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";  
+        }
+        if(empty($email)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Email Error</strong>  Email Cannot be empty....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+            </div>";  
+        }
     }
 
 
