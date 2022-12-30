@@ -267,6 +267,15 @@
 
     function check_otp($otp_no){
         $con = Connection();
+
+        if(empty($otp_no)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>OTP Error</strong>  OTP Cannot be Empty...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>";  
+        }
     }
 
 
