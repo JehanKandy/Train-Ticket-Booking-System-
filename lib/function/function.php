@@ -174,6 +174,8 @@
     function check_otp_user($username, $email){
         $con = Connection();
 
+
+
         if(empty($username)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>Username Error</strong>  Username Cannot be empty....!
@@ -196,6 +198,7 @@
         $check_user_otp_result = mysqli_query($con, $check_user_otp);
         $check_user_otp_row = mysqli_fetch_assoc($check_user_otp_result);
         $check_user_otp_nor = mysqli_num_rows($check_user_otp_result);
+
 
         if($check_user_otp_nor > 0){
             if($username != $check_user_otp_row['username']){
@@ -240,6 +243,9 @@
                     }else{  
                         $insert_otp = "INSERT INTO pass_reset_tbl(username,email,otp_no,update_date)VALUES('$username','$email','$otp_num',NOW())";
                         $insert_otp_result = mysqli_query($con, $insert_otp);
+
+                        setcookie('ResetPass',$check_user_otp_row['email_user'],time()+60*2,'/');
+                        $_SESSION['resetPass'] = $check_user_otp_row['email_user'];
                         header("location:check_otp.php");
                     }
                 
