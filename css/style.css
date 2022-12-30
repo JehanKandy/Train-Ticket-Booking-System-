@@ -937,6 +937,8 @@ td {
     height: 45px;
     background: none;
     border: 1px solid rgb(216, 55, 216);
+    color: rgb(216, 55, 216);
+    border-radius: 5px;
 }
 
 /* 
