@@ -216,7 +216,19 @@
             }
             
             else{
-                echo "hi";
+                $otp_num = rand(10000,99999);
+
+                $receiver = $email;
+                $subject = "Resent Password..!";
+                $body = "OTP For Resent Password /n GYM Workout /n/n OTP is ".$otp_num;
+                $sender = "From:jehankandy@gmail.com";
+
+                if(mail($receiver,$subject,$body,$sender)){
+                    echo "Send";
+                }else{
+                    echo "not";
+                }
+
             }
         }        
         else{
@@ -229,5 +241,6 @@
         }
     
     }
+
 
 ?>
