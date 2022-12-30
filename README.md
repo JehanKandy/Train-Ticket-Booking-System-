@@ -284,7 +284,8 @@ so that I use strval() for do that
         
         
         
-if the both OTP numbers are currect the user rederect to the `update_pass.php` for update the user's password        
+if the both OTP numbers are currect the user rederect to the `update_pass.php` for update the user's password   
+
 <hr>
 
   
