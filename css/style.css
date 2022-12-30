@@ -934,6 +934,7 @@ td {
 .check-otp-content .body .otp-verify-btn{
     width: 100%;
     margin-top: 30px;
+    height: 35px;
 }
 
 /* 
