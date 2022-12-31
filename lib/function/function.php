@@ -368,6 +368,12 @@
             if($check_user_row > 0){
                 $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && user_email = '$email'";
                 $update_pass_result = mysqli_query($con, $update_pass);
+
+                setcookie('ResetPass',NULL,time()-60*60,'/');
+                session_unset();
+                session_destroy();
+                header('location:login.php');
+                
             }else{
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>User Error</strong>  User Does not Exists....!
@@ -375,7 +381,7 @@
                     <span aria-hidden='true'>&times;</span>
                     </button>
                 </div>";  
-            }         
+            }      
 
 
         }
