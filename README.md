@@ -402,6 +402,9 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
   - lib/views/check_otp.php
   - lib/views/update_pass.php
   2. UPDATE
+  - lib/views/fpass_check.php
+  - lib/function/function.php
+  - - functions check_otp($otp_no)
 
   
   <hr>
