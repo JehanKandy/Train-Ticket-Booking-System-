@@ -172,7 +172,7 @@
     }
 
     /* 30 DEC 2022 */
-    
+
     function check_otp_user($username, $email){
         $con = Connection();
 
@@ -316,5 +316,7 @@
 
     /* 31 DEC 2022 */
 
-
+    function update_password($username,$email,$npass,$cnpass){
+        $con = Connection();
+    }
 ?>
