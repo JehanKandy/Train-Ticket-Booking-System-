@@ -142,15 +142,15 @@
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email_user'];
                     header("location:../routes/user.php");
-                }            
+                }
         }
         else{
-            $check_deactive_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass'";
-            $check_deactive_user_result = mysqli_query($con, $check_deactive_user);
-            $check_deactive_user_nor = mysqli_num_rows($check_deactive_user_result);
-            $check_deactive_user_row = mysqli_fetch_assoc($check_deactive_user_result);
+            $deactive_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass' && is_active = 0 && is_pending = 0";
+            $deactive_user_result = mysqli_query($con, $deactive_user);
+            $deactive_user_row = mysqli_fetch_assoc($deactive_user_result);
+            $deactive_user_nor = mysqli_num_rows($deactive_user_result);
 
-            if($check_deactive_user_row['is_active'] == 0){
+            if($deactive_user_nor > 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>User Error</strong>  User Deactive....!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
@@ -158,7 +158,12 @@
                     </button>
                 </div>"; 
             }
-            elseif($check_deactive_user_nor == 0){
+
+            $check_deactive_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass'";
+            $check_deactive_user_result = mysqli_query($con, $check_deactive_user);
+            $check_deactive_user_nor = mysqli_num_rows($check_deactive_user_result);
+
+            if($check_deactive_user_nor == 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>User Error</strong>  User does not Exist....!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
