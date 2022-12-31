@@ -366,7 +366,8 @@
             $check_user_row = mysqli_fetch_assoc($check_user_result);
 
             if($check_user_row > 0){
-                $update_pass = "UPDATE user_tbl SET user_pass"
+                $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && user_email = '$email'";
+                $update_pass_result = mysqli_query($con, $update_pass);
             }else{
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>User Error</strong>  User Does not Exists....!
