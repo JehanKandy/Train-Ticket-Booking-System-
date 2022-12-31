@@ -290,6 +290,9 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
 
 <hr>
 
+ 
+   <h4>26 December 2022</h4>
+       <h5><b>update_password($username,$email,$npass,$cnpass)</b></h5>
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
