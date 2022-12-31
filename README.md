@@ -293,6 +293,9 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
  
    <h4>26 December 2022</h4>
        <h5><b>update_password($username,$email,$npass,$cnpass)</b></h5>
+       
+in this fucntion i used for update new password. so that I pass 4 variable for get user input values `$username`, `$email`, `$npass` and `$cnpass`
+for `username`, `email`, `new password` and `Confirm Password`
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
