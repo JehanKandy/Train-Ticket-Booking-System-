@@ -321,7 +321,7 @@
 
         if(empty($username)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                    <strong>Username Error : </strong> &nbsp; Username does not exist...!
+                    <strong>Username Error : </strong> &nbsp; Username can not be empty...!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
@@ -329,7 +329,7 @@
         }
         if(empty($email)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                    <strong>Username Error : </strong> &nbsp; Username does not exist...!
+                    <strong>Email Error : </strong> &nbsp; Email Can not be empty...!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
@@ -337,7 +337,7 @@
         }
         if(empty($npass)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                    <strong>Username Error : </strong> &nbsp; Username does not exist...!
+                    <strong>Password Error : </strong> &nbsp; Password Can not be empty...!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
@@ -345,7 +345,15 @@
         }
         if(empty($cnpass)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                    <strong>Username Error : </strong> &nbsp; Username does not exist...!
+                    <strong>Password Error : </strong> &nbsp; Confirm Password can not be empty...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+        }
+        if($npass != $cnpass){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error : </strong> &nbsp; Passwords are not match...!
                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                     </button>
