@@ -296,6 +296,67 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
        
 in this fucntion i used for update new password. so that I pass 4 variable for get user input values `$username`, `$email`, `$npass` and `$cnpass`
 for `username`, `email`, `new password` and `Confirm Password`
+according to this function in first code line identyfy the functuin 
+
+    function update_password($username,$email,$npass,$cnpass){
+        $con = Connection();
+        
+and the I cheack  `username`, `email`, `new password` and `Confirm Password` are empty
+  
+  
+        if(empty($username)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Username Error : </strong> &nbsp; Username can not be empty...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+        }
+        if(empty($email)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Email Error : </strong> &nbsp; Email Can not be empty...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+        }
+        if(empty($npass)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error : </strong> &nbsp; Password Can not be empty...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+        }
+        if(empty($cnpass)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error : </strong> &nbsp; Confirm Password can not be empty...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+        }
+        
+and the i check password and confirm password are same 
+
+        if($npass != $cnpass){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>Password Error : </strong> &nbsp; Passwords are not match...!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+        }
+        
+then i check are there any user in database according to user enterd value. if there is a user according to the values,
+
+            $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
+            
+it will autometicaly update the database according to new password
+
+            $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && email_user = '$email'";
+            $update_pass_result = mysqli_query($con, $update_pass);
+
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
