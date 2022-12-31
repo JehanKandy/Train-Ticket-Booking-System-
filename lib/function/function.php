@@ -145,20 +145,26 @@
                 }            
         }
         else{
-            if($check_user_row['is_active'] == 0){
+            $check_deactive_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$user_pass'";
+            $check_deactive_user_result = mysqli_query($con, $check_deactive_user);
+            $check_deactive_user_nor = mysqli_num_rows($check_deactive_user_result);
+            $check_deactive_user_row = mysqli_fetch_assoc($check_deactive_user_result);
+
+            if($check_deactive_user_row['is_active'] == 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                        <strong>User Error</strong>  User Deactivate....!
-                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                        <span aria-hidden='true'>&times;</span>
-                        </button>
-                </div>";  
-            }else{
+                    <strong>User Error</strong>  User Deactive....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
+            }
+            elseif($check_deactive_user_nor == 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                        <strong>User Error</strong>  User Does not Exists....!
-                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                        <span aria-hidden='true'>&times;</span>
-                        </button>
-                </div>";  
+                    <strong>User Error</strong>  User does not Exist....!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                    </button>
+                </div>"; 
             }
         }    
     }
@@ -360,20 +366,20 @@
                 </div>"; 
         }
         else{
-            $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_email = '$email'";
+            $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email_user = '$email'";
             $check_user_result = mysqli_query($con, $check_user);
             $check_user_nor = mysqli_num_rows($check_user_result);
             $check_user_row = mysqli_fetch_assoc($check_user_result);
 
-            if($check_user_row > 0){
-                $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && user_email = '$email'";
+            if($check_user_nor > 0){
+                $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && email_user = '$email'";
                 $update_pass_result = mysqli_query($con, $update_pass);
 
                 setcookie('ResetPass',NULL,time()-60*60,'/');
                 session_unset();
                 session_destroy();
                 header('location:login.php');
-                
+
             }else{
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>User Error</strong>  User Does not Exists....!
