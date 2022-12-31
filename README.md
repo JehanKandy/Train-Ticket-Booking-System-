@@ -357,6 +357,15 @@ it will autometicaly update the database according to new password
             $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && email_user = '$email'";
             $update_pass_result = mysqli_query($con, $update_pass);
 
+and then i already create a session and cookie for update password now i uset cookie and destroy session
+
+                setcookie('ResetPass',NULL,time()-60*60,'/');
+                session_unset();
+                session_destroy();
+                header('location:login.php');
+                
+after that rederect to login.php 
+
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
