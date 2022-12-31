@@ -416,7 +416,7 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
   2. UPDATE
   - lib/views/update_pass.php
   - lib/function/function.php
-
+  - - functions update_password($username,$email,$npass,$cnpass)
 
     
 <h1>Developers</h1>
