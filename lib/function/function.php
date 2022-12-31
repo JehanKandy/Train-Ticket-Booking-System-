@@ -171,6 +171,8 @@
         echo $waiting_user_username;
     }
 
+    /* 30 DEC 2022 */
+    
     function check_otp_user($username, $email){
         $con = Connection();
 
@@ -271,6 +273,7 @@
 
         $otp_email = strval($_SESSION['resetPass']);
 
+
         if(empty($otp_no)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                     <strong>OTP Error</strong>  OTP Cannot be Empty...!
@@ -280,16 +283,15 @@
                 </div>";  
         }
 
-        $pass_otp = md5($otp_no);
 
-        $check_otp = "SELECT * FROM pass_reset_tbl WHERE email = '$otp_email' && otp_no ='$pass_otp'";
+        $check_otp = "SELECT * FROM pass_reset_tbl WHERE email = '$otp_email' && otp_no ='$otp_no'";
         $check_otp_result = mysqli_query($con, $check_otp);
         $check_otp_row = mysqli_fetch_assoc($check_otp_result);
-        $check_opt__nor = mysqli_num_rows($check_otp_result);
+        $check_opt_nor = mysqli_num_rows($check_otp_result);
 
 
 
-        if($check_opt__nor > 0){
+        if($check_opt_nor == 0){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                         <strong>OTP Error</strong>  Check Your OTP...!
                         <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
@@ -297,7 +299,7 @@
                         </button>
                     </div>";  
         }else{
-            if($pass_otp != $check_otp_row['otp_no ']){
+            if($otp_no != $check_otp_row['otp_no']){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                             <strong>OTP Error</strong>  Invalid OTP Number..!
                             <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
@@ -311,6 +313,8 @@
         }
         
     }
+
+    /* 31 DEC 2022 */
 
 
 ?>
