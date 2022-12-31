@@ -12,10 +12,18 @@
     <div class="body">
         <div class="title">Update Password</div>
         <hr>
+        <?php 
+            if(isset($_POST['new_pass'])){
+                $result = update_password($_POST['username'], $_POST['email'], md5($_POST['npass']), md5($_POST['ncpass']));
+                echo $result;
+            }
+        
+        ?>
+
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
                 <div class="reg-content">
                     <p class="input-text">Username : </p>
-                    <input type="text" name="=" id="npassUser" class="input-feild" placeholder="Username"><br>
+                    <input type="text" name="username" id="npassUser" class="input-feild" placeholder="Username"><br>
 
                     <p class="input-text">Email : </p>
                     <input type="email" name="email" id="npassEmail" class="input-feild" placeholder="Email"><br>
