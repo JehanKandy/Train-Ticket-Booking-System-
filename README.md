@@ -414,8 +414,9 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
   1. DEVELOP
 
   2. UPDATE
+  - lib/views/update_pass.php
   - lib/function/function.php
-  - lib/views/
+
 
     
 <h1>Developers</h1>
