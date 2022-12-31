@@ -412,8 +412,7 @@ if the both OTP numbers are currect the user rederect to the `update_pass.php` f
   <h4>30 December 2022</h4>
   
   1. DEVELOP
-  - lib/views/check_otp.php
-  - lib/views/update_pass.php
+
   2. UPDATE
 
     
