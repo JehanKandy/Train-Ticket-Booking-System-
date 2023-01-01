@@ -159,30 +159,22 @@
 }
 
 .admin-item1 {
-    grid-area: a;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: none;
-    border: 1px solid rgb(29, 152, 235);
-    font-size: 25px;
-    color: rgb(29, 152, 235);
-    font-family: 'Bebas Neue', cursive;
+    background-color: #e2e2e2;
+    height: 100px;
+    transition: 0.5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
-
+.admin-item1:hover{
+    background-color: #c2c2c2;
+}
 .std-hr {
     border-top: 1px solid rgb(29, 152, 235);
 }
 
 .admin-item2 {
-    grid-area: b;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: none;
-    border: 1px solid #50be50;
-    font-size: 25px;
-    color: #50be50;
+    background-color: #e2e2e2;
+    height: 100px;
+    transition: 0.5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -191,14 +183,9 @@
 }
 
 .admin-item3 {
-    grid-area: c;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: none;
-    border: 1px solid #f09712;
-    font-size: 25px;
-    color: #f09712;
+    background-color: #e2e2e2;
+    height: 100px;
+    transition: 0.5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -207,14 +194,9 @@
 }
 
 .admin-item4 {
-    grid-area: d;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: none;
-    border: 1px solid #50be50;
-    font-size: 25px;
-    color: #50be50;
+    background-color: #e2e2e2;
+    height: 100px;
+    transition: 0.5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -223,15 +205,12 @@
 }
 
 .admin-title {
-    padding-top: 20px;
-    padding-left: 30px;
+    margin-top: -40px;
+    padding-left: 40px;
+    margin-left: 70px;
+    font-size: 20px;
 }
 
-.admin-body {
-    text-align: center;
-    padding-top: 25px;
-    font-size: 30px;
-}
 
 .last-user {
     width: 100%;
@@ -1305,6 +1284,22 @@ td {
     background-color: red;
     color: white;
     cursor: pointer;
+}
+
+.contact-grid{
+    display: grid;
+    min-width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d" "e f g h";
+    margin-top: 40px;
+}
+.contact-grid .c-item1{
+    height: 120px;
+    background-color: #3b5998;
+    color: white;
 }
 
 @media only screen and (max-width: 1400px) {
