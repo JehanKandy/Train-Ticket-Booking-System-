@@ -511,6 +511,7 @@ after that rederect to login.php
   - lib/layouts/nav_loged.php
   - lib/routes/admin.php
   - css/dashboard.css
+  - js/script.js
   2. UPDATE
   - lib/function/function.php
   - - update functions - update_password($username,$email,$npass,$cnpass)
