@@ -513,6 +513,7 @@ after that rederect to login.php
   - css/dashboard.css
   - js/script.js
   2. UPDATE
+  - lib/layouts/header.php
   - lib/function/function.php
   - - update functions - update_password($username,$email,$npass,$cnpass)
   
