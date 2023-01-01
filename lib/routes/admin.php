@@ -34,79 +34,36 @@
 	</aside>
 
 	<main class="content">
-		<h1>Welcome, To Admin Dashboard</h1>
-		<hr>
+
 		<div class="admin-content">
 			<div class="grid">
 				<div class="admin-item1">					
 						<i class="fas fa-user-graduate" style="font-size: 50px; padding:25px 0 0 25px;"></i>
                         <div class="admin-title"> &nbsp;  Students<br></div>					
-					<div class="admin-body">
-						15
-					</div>
 				</div>
 				<div class="admin-item2">
+                <i class="fas fa-chalkboard-teacher" style="font-size: 50px; padding:25px 0 0 25px;"></i>
 					<div class="admin-title">
-						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Teachers<br>
+						 &nbsp;  Teachers<br>
 					</div>
-					<hr class="tea-hr">
-					<div class="admin-body">
-						15
-					</div>
+
 				</div>
 				<div class="admin-item3">
+                <i class="fas fa-user-tie" style="font-size: 50px; padding:25px 0 0 25px;"></i>
 					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
+						 &nbsp;  Admins<br>
 					</div>
-					<hr class="admin-hr">
-					<div class="admin-body">
-						15
-					</div>
+
+
 				</div>
 				<div class="admin-item4">
+                <i class="fas fa-question-circle" style="font-size: 50px; padding:25px 0 0 25px;"></i>
 					<div class="admin-title">
-						<i class="fas fa-question-circle"></i> &nbsp;  Quizzes<br>
+						 &nbsp;  Quizzes<br>
 					</div>
-					<hr class="qui-hr">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
+				</div> 
 			</div>
-			<div class="last-title">Last Access Users</div>
-			<table class="lastuser-tbl">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Email</th>
-						<th>Access Time</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Jehankandy</td>
-						<td>jehan@123123123</td>
-						<td>2022/05/22 10:13:45</td>
-					</tr>
-					<tr>
-						<td>Jehankandy</td>
-						<td>jehan@123123123</td>
-						<td>2022/05/22 10:13:45</td>
-					</tr>
-					<tr>
-						<td>Jehankandy</td>
-						<td>jehan@123123123</td>
-						<td>2022/05/22 10:13:45</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="admin-comment">
-				<div class="title">User Comments</div>
-				<div class="admin-comment-grid">
-				<?php //user_commnets(); ?>
-				</div>
-				<a href="more_comments.php"><button class="comment-add">More Comment</button></a>
-			</div>
+
 		</div>
 	</main>
 </div>
