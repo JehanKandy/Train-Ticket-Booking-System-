@@ -141,7 +141,7 @@
                 elseif($check_user_row['user_type'] == 'admin'){
                     setcookie('login',$check_user_row['email_user'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email_user'];
-                    header("location:../routes/user.php");
+                    header("location:../routes/admin.php");
                 }
         }
         else{
@@ -397,6 +397,7 @@
                 </div>";  
             }      
         }
-
     }
+
+
 ?>
