@@ -501,7 +501,9 @@ after that rederect to login.php
   1. DEVELOP
 
   2. UPDATE
-
+  - lib/function/function.php
+  - - update functions - update_password($username,$email,$npass,$cnpass)
+  
 
     
 <h1>Developers</h1>
