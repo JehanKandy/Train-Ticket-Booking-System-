@@ -508,7 +508,7 @@ after that rederect to login.php
   <h4>01 January 2023</h4>
   
   1. DEVELOP
-
+  - lib/layouts/nav_loged.php
   2. UPDATE
   - lib/function/function.php
   - - update functions - update_password($username,$email,$npass,$cnpass)
