@@ -163,6 +163,7 @@
     height: 100px;
     transition: 0.5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 .admin-item1:hover{
     background-color: #c2c2c2;
@@ -176,6 +177,7 @@
     height: 100px;
     transition: 0.5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 
 .tea-hr {
@@ -187,6 +189,7 @@
     height: 100px;
     transition: 0.5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 
 .admin-hr {
