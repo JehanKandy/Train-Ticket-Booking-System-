@@ -38,11 +38,9 @@
 		<hr>
 		<div class="admin-content">
 			<div class="grid">
-				<div class="admin-item1">
-					<div class="admin-title">
-						<i class="fas fa-user-graduate"></i> &nbsp;  Students<br>
-					</div>
-					<hr class="std-hr">
+				<div class="admin-item1">					
+						<i class="fas fa-user-graduate" style="font-size: 50px; padding:25px 0 0 25px;"></i>
+                        <div class="admin-title"> &nbsp;  Students<br></div>					
 					<div class="admin-body">
 						15
 					</div>
