@@ -494,6 +494,15 @@ after that rederect to login.php
   - lib/function/function.php
   - - functions update_password($username,$email,$npass,$cnpass)
 
+  <hr>
+  
+  <h4>31 December 2022</h4>
+  
+  1. DEVELOP
+
+  2. UPDATE
+
+
     
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
