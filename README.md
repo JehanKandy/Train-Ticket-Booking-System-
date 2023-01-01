@@ -373,6 +373,9 @@ after that rederect to login.php
        
   Taday i update the function, in oderto that whem user get OTP and update the password, the data in password reset table must be delete, if not others can reset user   password     
   
+                $delete_otp = "DELETE FROM pass_reset_tbl WHERE username = '$username' && email = '$email'";
+                $delete_otp_result = mysqli_query($con, $delete_otp);
+  
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
   
