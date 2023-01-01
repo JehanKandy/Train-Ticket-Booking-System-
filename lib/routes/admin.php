@@ -1304,19 +1304,19 @@ td {
 }
 .contact-grid .c-item2{
     height: 120px;
-    background-color: #3b5998;
+    background-color:black;
     color: white;
     text-align: center;
 }
 .contact-grid .c-item3{
     height: 120px;
-    background-color: #3b5998;
+    background-color: #075E54;
     color: white;
     text-align: center;
 }
 .contact-grid .c-item4{
     height: 120px;
-    background-color: #3b5998;
+    background-color: #0072b1;
     color: white;
     text-align: center;
 }
