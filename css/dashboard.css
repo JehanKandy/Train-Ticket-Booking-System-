@@ -1301,13 +1301,14 @@ td {
     background: none;
     color: red;
     border-radius: 2px;
+    transition: 0.5s;
 }
 .logout-btn-nav:hover{
     background-color: red;
     color: white;
     cursor: pointer;
-
 }
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
