@@ -40,19 +40,19 @@
 			<div class="grid">
 				<div class="admin-item1">					
 						<i class="fas fa-user-graduate" style="font-size: 50px; padding:25px 0 0 25px;"></i>
-                        <div class="admin-title"> &nbsp;  Students<br></div>					
+                        <div class="admin-title"> &nbsp;  Admins<br></div>					
 				</div>
 				<div class="admin-item2">
                 <i class="fas fa-chalkboard-teacher" style="font-size: 50px; padding:25px 0 0 25px;"></i>
 					<div class="admin-title">
-						 &nbsp;  Teachers<br>
+						 &nbsp;  Users<br>
 					</div>
 
 				</div>
 				<div class="admin-item3">
                 <i class="fas fa-user-tie" style="font-size: 50px; padding:25px 0 0 25px;"></i>
 					<div class="admin-title">
-						 &nbsp;  Admins<br>
+						 &nbsp;  Trains<br>
 					</div>
 
 
@@ -60,7 +60,7 @@
 				<div class="admin-item4">
                 <i class="fas fa-question-circle" style="font-size: 50px; padding:25px 0 0 25px;"></i>
 					<div class="admin-title">
-						 &nbsp;  Quizzes<br>
+						 &nbsp;  Bookings<br>
 					</div>
 				</div> 
 			</div>
