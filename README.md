@@ -366,6 +366,12 @@ and then i already create a session and cookie for update password now i uset co
                 
 after that rederect to login.php 
 
+<hr>
+
+   <h4>31 December 2022</h4>
+       <h5><b>update_password($username,$email,$npass,$cnpass)</b></h5>
+       
+  Taday i update the function, in oderto that whem user get OTP and update the password, the data in password reset table must be delete, if not others can reset user   password     
   
 <h1>Development Timelne</h1>
   <h4>18 December 2022</h4>
