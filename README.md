@@ -510,6 +510,7 @@ after that rederect to login.php
   1. DEVELOP
   - lib/layouts/nav_loged.php
   - lib/routes/admin.php
+  - css/dashboard.css
   2. UPDATE
   - lib/function/function.php
   - - update functions - update_password($username,$email,$npass,$cnpass)
