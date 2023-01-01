@@ -380,6 +380,9 @@
                 $update_pass = "UPDATE user_tbl SET user_pass = '$npass' WHERE username = '$username' && email_user = '$email'";
                 $update_pass_result = mysqli_query($con, $update_pass);
 
+                $delete_otp = "DELETE FROM pass_reset_tbl WHERE username = '$username' && email = '$email'";
+                $delete_otp_result = mysqli_query($con, $delete_otp);
+
                 setcookie('ResetPass',NULL,time()-60*60,'/');
                 session_unset();
                 session_destroy();
@@ -393,8 +396,6 @@
                     </button>
                 </div>";  
             }      
-
-
         }
 
     }
