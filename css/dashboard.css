@@ -71,7 +71,7 @@
     flex: 1 1 0;
     max-width: 300px;
     padding: 2rem 1rem;
-    background-color: #313131;
+    background-color: #e2e2e2;
     border-top: 1px solid white;
 }
 
@@ -91,7 +91,7 @@
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #FFF;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: 0.2s linear;
     font-size: 20px;
@@ -102,11 +102,9 @@
 }
 
 .sidebar .menu .menu-item:hover {
-    background-color: white;
+    background-color: rgba(190, 190, 190, 0.815);
     color: black;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    box-shadow: 0 2px 4px 0 rgba(31, 21, 165, 0.678), 0 3px 10px 0 rgba(31, 21, 165, 0.678);
+
 }
 
 .sidebar .profile-img {
