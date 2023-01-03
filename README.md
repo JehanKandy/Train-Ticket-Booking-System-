@@ -2,6 +2,15 @@
 <h4 align="center">Train Ticket Reservation System</h4>
 
 <p align="center"><img src="https://wakatime.com/badge/user/0ac30051-5698-4ae9-851e-7d4853d4aba7/project/67466c4b-ebc9-4e81-8250-db76db6d993a.svg"></p>
+<span>
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JehanKandy/Train-Ticket-Booking-System-" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/JehanKandy/Train-Ticket-Booking-System-" />
+<img alt="" src="https://img.shields.io/github/repo-size/JehanKandy/Train-Ticket-Booking-System-" />
+<img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/JehanKandy/Train-Ticket-Booking-System-" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JehanKandy/Train-Ticket-Booking-System-" />
+<img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/JehanKandy/Train-Ticket-Booking-System-" />
+<img alt="Github License" src="https://img.shields.io/github/license/JehanKandy/Train-Ticket-Booking-System-" />
+</span>
 
 <h1>Explain Functions</h1>
   <h4>25 December 2022</h4>
